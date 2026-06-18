@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18 11:09:02",
+  "generated_at": "2026-06-18 11:12:07",
   "update_stage": "manual",
   "update_stage_title": "手动更新",
   "latest_trade_date": "2026-06-17",
@@ -74,76 +74,76 @@
   "rankings": [
     {
       "source": "通达信",
-      "timestamp": "2026-06-18 11:09",
+      "timestamp": "2026-06-18 11:12",
       "stocks": [],
       "sectors": []
     },
     {
       "source": "财联社",
-      "timestamp": "2026-06-18 11:09",
+      "timestamp": "2026-06-18 11:12",
       "stocks": [
         {
           "rank": 1,
           "code": "000725.SZ",
           "name": "京东方Ａ",
-          "price": 6.62,
-          "change": -0.45,
+          "price": 6.58,
+          "change": -1.05,
           "rank_change": 0
         },
         {
           "rank": 2,
           "code": "600110.SH",
           "name": "诺德股份",
-          "price": 17.2,
-          "change": -0.120000005,
+          "price": 17.15,
+          "change": -0.41,
           "rank_change": 0
         },
         {
           "rank": 3,
           "code": "603986.SH",
           "name": "兆易创新",
-          "price": 633.6,
-          "change": 8.120001,
+          "price": 632.6,
+          "change": 7.9400005,
           "rank_change": 2
         },
         {
           "rank": 4,
           "code": "600584.SH",
           "name": "长电科技",
-          "price": 84.45,
-          "change": 3.2900002,
+          "price": 84.26,
+          "change": 3.06,
           "rank_change": 0
         },
         {
           "rank": 5,
           "code": "300285.SZ",
           "name": "国瓷材料",
-          "price": 91.05,
-          "change": 15.99,
+          "price": 90.2,
+          "change": 14.900001,
           "rank_change": -2
         },
         {
           "rank": 6,
           "code": "002185.SZ",
           "name": "华天科技",
-          "price": 19.61,
-          "change": 2.94,
+          "price": 19.59,
+          "change": 2.83,
           "rank_change": 2
         },
         {
           "rank": 7,
           "code": "600487.SH",
           "name": "亨通光电",
-          "price": 114.68,
-          "change": 3.32,
+          "price": 113.78,
+          "change": 2.5,
           "rank_change": 3
         },
         {
           "rank": 8,
           "code": "603773.SH",
           "name": "沃格光电",
-          "price": 162.8,
-          "change": -2,
+          "price": 162,
+          "change": -2.49,
           "rank_change": -2
         },
         {
@@ -166,8 +166,8 @@
           "rank": 11,
           "code": "000636.SZ",
           "name": "风华高科",
-          "price": 75.32,
-          "change": 1.7,
+          "price": 74.91,
+          "change": 1.15,
           "rank_change": 2
         },
         {
@@ -182,24 +182,24 @@
           "rank": 13,
           "code": "300475.SZ",
           "name": "香农芯创",
-          "price": 253,
-          "change": 3.1399999,
+          "price": 252.24,
+          "change": 2.83,
           "rank_change": 1
         },
         {
           "rank": 14,
           "code": "600667.SH",
           "name": "太极实业",
-          "price": 19.8,
-          "change": 4.1,
+          "price": 19.6,
+          "change": 3.05,
           "rank_change": 5
         },
         {
           "rank": 15,
           "code": "000100.SZ",
           "name": "TCL科技",
-          "price": 5.03,
-          "change": -1.76,
+          "price": 5.01,
+          "change": -2.15,
           "rank_change": 2
         },
         {
@@ -214,8 +214,8 @@
           "rank": 17,
           "code": "600176.SH",
           "name": "中国巨石",
-          "price": 54.57,
-          "change": -0.05,
+          "price": 54.72,
+          "change": 0.22,
           "rank_change": -6
         },
         {
@@ -230,32 +230,32 @@
           "rank": 19,
           "code": "600392.SH",
           "name": "盛和资源",
-          "price": 30.85,
-          "change": 7.19,
+          "price": 30.98,
+          "change": 7.64,
           "rank_change": 7
         },
         {
           "rank": 20,
           "code": "300308.SZ",
           "name": "中际旭创",
-          "price": 1340.02,
-          "change": 5.0099998,
+          "price": 1338.87,
+          "change": 4.92,
           "rank_change": 3
         },
         {
           "rank": 21,
           "code": "600707.SH",
           "name": "彩虹股份",
-          "price": 11.83,
-          "change": -6.56,
+          "price": 11.8,
+          "change": -6.79,
           "rank_change": -1
         },
         {
           "rank": 22,
           "code": "600522.SH",
           "name": "中天科技",
-          "price": 57.09,
-          "change": 3.9700003,
+          "price": 56.99,
+          "change": 3.79,
           "rank_change": 7
         },
         {
@@ -270,40 +270,40 @@
           "rank": 24,
           "code": "688256.SH",
           "name": "寒武纪",
-          "price": 1498.97,
-          "change": 13.56,
+          "price": 1492.89,
+          "change": 13.099999,
           "rank_change": 0
         },
         {
           "rank": 25,
           "code": "601636.SH",
           "name": "旗滨集团",
-          "price": 8.26,
-          "change": -4.73,
+          "price": 8.22,
+          "change": -5.19,
           "rank_change": 0
         },
         {
           "rank": 26,
           "code": "600552.SH",
           "name": "凯盛科技",
-          "price": 23.3,
-          "change": -3.44,
+          "price": 23.24,
+          "change": -3.6899998,
           "rank_change": -5
         },
         {
           "rank": 27,
           "code": "601138.SH",
           "name": "工业富联",
-          "price": 76.1,
-          "change": 4.76,
+          "price": 75.88,
+          "change": 4.46,
           "rank_change": 0
         },
         {
           "rank": 28,
           "code": "600186.SH",
           "name": "莲花控股",
-          "price": 14.5,
-          "change": -1.09,
+          "price": 14.57,
+          "change": -0.61,
           "rank_change": -10
         },
         {
@@ -318,8 +318,8 @@
           "rank": 30,
           "code": "300433.SZ",
           "name": "蓝思科技",
-          "price": 56.73,
-          "change": 10.78,
+          "price": 56.26,
+          "change": 9.86,
           "rank_change": 0
         }
       ],
@@ -329,7 +329,7 @@
           "id": 2402931,
           "title": "美联储按兵不动但释放鹰派信号 年内利率变化预期由降息变加息",
           "brief": "①美联储宣布将联邦基金利率目标区间维持在3.5%至3.75%之间不变，符合市场预期；\n②点阵图显示，美联储官员们当下整体认为年内会“加息一次”，原来则是“降息一次”。",
-          "heat": 262301,
+          "heat": 263856,
           "article_schema": "cailianshe://article_detail?article_id=2402931"
         },
         {
@@ -337,7 +337,7 @@
           "id": 2403010,
           "title": "【早报】美联储转鹰；美股三大指数集体收跌；黄金、白银下跌；葡萄牙队爆冷战平",
           "brief": "①沪深交易所发布主动管理ETF业务指引②工信部：深入实施“人工智能＋制造”专项行动③上交所发布人工智能大模型企业适用科创板第五套上市标准④美联储转鹰⑤多只电子布概念股公告相关业务情况。",
-          "heat": 194403,
+          "heat": 195580,
           "article_schema": "cailianshe://article_detail?article_id=2403010"
         },
         {
@@ -345,7 +345,7 @@
           "id": 2403006,
           "title": "一图解读美联储6月决议：如期“按兵不动”，沃什明言重大改革将至！",
           "brief": "①美联储FOMC周四凌晨如期宣布“按兵不动”，将联邦基金利率目标区间维持在3.5%至3.75%之间；\n②新任美联储主席沃什首次发布会释放了强烈的改革信号。",
-          "heat": 245619,
+          "heat": 247051,
           "article_schema": "cailianshe://article_detail?article_id=2403006"
         },
         {
@@ -353,7 +353,7 @@
           "id": 2403003,
           "title": "美股收盘：沃什首秀吓坏市场！三大指数尾盘跳水",
           "brief": "①市场完全定价美联储10月前加息，美股尾盘跳水，SpaceX迎上市后首跌；\n②苹果库克：涨价已无法避免；\n③AI电力“卖铲人”康明斯、半导体设备巨头应用材料、NAND巨头西部数据和希捷科技均再创新高。",
-          "heat": 312129,
+          "heat": 314177,
           "article_schema": "cailianshe://article_detail?article_id=2403003"
         },
         {
@@ -361,7 +361,7 @@
           "id": 2402978,
           "title": "美联储新主席沃什释放强烈信号：美联储的天，要变了",
           "brief": "①新任美联储主席沃什首次发布会释放强烈改革信号：决议声明大幅压缩、取消前瞻性指引，并宣布审查沟通机制、资产负债表、通胀框架等核心政策：\n②尽管最新点阵图暗示年内或加息一次，沃什仍提及降息讨论，显示“沃什时代”的美联储将更少给市场“喂答案”，更多回归数据和临场判断。",
-          "heat": 253819,
+          "heat": 255345,
           "article_schema": "cailianshe://article_detail?article_id=2402978"
         },
         {
@@ -369,7 +369,7 @@
           "id": 2402991,
           "title": "伊、美官员：两国已远程签署谅解备忘录（附全文）",
           "brief": "综合央视新闻等媒体报道，当地时间周三，伊朗官方通讯社伊通社以及多家美国媒体同步披露了美伊谅解备忘录文本内容。目前文本内容仍有待两国政府予以官方确认，但伊、美媒体这回公布的文本完全一致。",
-          "heat": 207311,
+          "heat": 208637,
           "article_schema": "cailianshe://article_detail?article_id=2402991"
         },
         {
@@ -377,7 +377,7 @@
           "id": 2402925,
           "title": "存储涨价的荒诞现实：一块游戏机硬盘已能抵三台完整主机",
           "brief": "①存储芯片涨价潮正在消费端上演“离谱名场面”：闪迪新推出的索尼授权PS5扩容SSD中，8TB版本官网定价高达3699.99美元，优惠后仍接近3000美元，约等于3台PS5 Pro；\n②行业人士目前判断2027年NAND供应只会更紧张，消费电子产业链或继续为存储涨价买单。",
-          "heat": 308098,
+          "heat": 309945,
           "article_schema": "cailianshe://article_detail?article_id=2402925"
         },
         {
@@ -385,7 +385,7 @@
           "id": 2403131,
           "title": "最强芯片液冷技术！无需特种散热材料 冷却性能达此前纪录10倍",
           "brief": "①整套方案无需相变制冷、纳米表面改性等复杂工艺，也不依赖金刚石等高价特种散热材料，仅以普通常温清水作为冷却介质；\n②采用与CMOS工艺兼容的制造工艺，与传统半导体制造流程完全兼容；\n③可应用于高性能计算 (HPC)、3D 堆叠半导体、功率半导体和国防电子设备等。",
-          "heat": 113228,
+          "heat": 114635,
           "article_schema": "cailianshe://article_detail?article_id=2403131"
         },
         {
@@ -393,7 +393,7 @@
           "id": 2403062,
           "title": "6月18日投资避雷针：昨日晚间逾70家A股公司提示风险",
           "brief": "①不得以长期、大额补贴扰乱市场秩序，外卖平台新规公开征求意见；\n②山东玻纤表示，当前公司没有电子布产品；\n③美联储转鹰，美股三大指数集体收跌，纳指跌1.34%。",
-          "heat": 281224,
+          "heat": 283370,
           "article_schema": "cailianshe://article_detail?article_id=2403062"
         },
         {
@@ -401,7 +401,7 @@
           "id": 2403039,
           "title": "苹果库克称“涨价已无法避免” 刚果（金）收获队史世界杯首球和首分 | 环球市场",
           "brief": "①美、伊官员：两国已远程签署谅解备忘录;\n②美股创1994年以来美联储主席首秀日最大跌幅；\n③最新爆料：iPhone Air二代明春再战；\n④一块游戏机硬盘已能抵三台完整主机。",
-          "heat": 306269,
+          "heat": 308343,
           "article_schema": "cailianshe://article_detail?article_id=2403039"
         },
         {
@@ -409,7 +409,7 @@
           "id": 2402856,
           "title": "德银：上调美光目标价至1500美元 预计存储短缺将持续至2028年",
           "brief": "①德意志银行将美光目标价上调至1500美元，维持“买入”评级，认为AI推动存储供需失衡将延续至2028年，盈利仍有上修空间；\n②美光今年股价已涨约260%，华尔街多家机构同步上调目标价，普遍看好存储价格强劲及AI需求持续支撑业绩增长。",
-          "heat": 437697,
+          "heat": 439540,
           "article_schema": "cailianshe://article_detail?article_id=2402856"
         },
         {
@@ -417,7 +417,7 @@
           "id": 2402870,
           "title": "外卖平台新规公开征求意见 美团、京东、淘宝闪购纷纷表态",
           "brief": "①国家市场监管总局发布《外卖平台补贴行为规范十条（征求意见稿）》，指出不得以开展长期、大额补贴的手段和方式，排除、限制市场竞争。\n②同一日，美团、京东外卖、淘宝闪购迅速作出回应，都表示坚决拥护这一规范。",
-          "heat": 268100,
+          "heat": 269238,
           "article_schema": "cailianshe://article_detail?article_id=2402870"
         },
         {
@@ -425,7 +425,7 @@
           "id": 2403030,
           "title": "FED独立性保住了？特朗普“笃信”沃什：按兵不动没问题，可能会加息！",
           "brief": "①美联储6月18日宣布维持联邦基金利率目标区间在3.5%至3.75%不变，连续第四次按兵不动；\n②美国总统特朗普对美联储维持利率不变的决定表示淡定，对新任主席沃什表示信任。",
-          "heat": 228258,
+          "heat": 229661,
           "article_schema": "cailianshe://article_detail?article_id=2403030"
         },
         {
@@ -433,7 +433,7 @@
           "id": 2403051,
           "title": "文本曝光！美伊已远程签署谅解备忘录 伊方对周五会谈持“观望态度”",
           "brief": "①最新消息称，美国和伊朗已远程签署谅解备忘录，以结束战争并开放霍尔木兹海峡，美国总统特朗普亲自签署了文件，协议现已生效；\n②伊朗外交部发言人巴加埃最新表示，伊朗与美国19日在瑞士的会谈目前尚未敲定。当伊美两国总统远程签署谅解备忘录后，伊方决定暂时对周五的会谈持“观望态度”。",
-          "heat": 265943,
+          "heat": 268014,
           "article_schema": "cailianshe://article_detail?article_id=2403051"
         },
         {
@@ -441,7 +441,7 @@
           "id": 2402897,
           "title": "四家上市公司同日宣告撤销退市风险警示|速读公告",
           "brief": "①今日晚间，*ST天山、*ST金比、*ST新研、*ST星光四家上市公司纷纷发布公告，撤销退市风险警示。\n②随着2025年年报披露落幕，一批前期被实施风险警示的公司迎来“脱星摘帽”。",
-          "heat": 369873,
+          "heat": 371434,
           "article_schema": "cailianshe://article_detail?article_id=2402897"
         },
         {
@@ -449,7 +449,7 @@
           "id": 2402924,
           "title": "亚马逊高管首谈量子技术前景：实用计算机或在5至7年后出现",
           "brief": "①亚马逊高级副总裁彼得·德桑蒂斯预测，首台“商业化实用”的量子计算机将在未来五到七年内问世；\n②他补充称，“从那以后，我们将看到类似摩尔定律的发展模式——它们每年都会变得更大、更强，并能够解决越来越多复杂且有趣的问题。”",
-          "heat": 226631,
+          "heat": 227999,
           "article_schema": "cailianshe://article_detail?article_id=2402924"
         },
         {
@@ -457,7 +457,7 @@
           "id": 2402815,
           "title": "中缅联合声明（全文）",
           "brief": "",
-          "heat": 348214,
+          "heat": 349633,
           "article_schema": "cailianshe://article_detail?article_id=2402815"
         },
         {
@@ -465,7 +465,7 @@
           "id": 2403170,
           "title": "六家上市公司齐发公告澄清 玻璃基板相关技术尚处产业化早期阶段",
           "brief": "①17日晚间，玻璃基板概念股密集提示风险，均表示相关业务尚处产业化前期；\n②玻璃基板封装被视作产业演进方向，但还面临脆性易裂、翘曲控制、TGV良率与成本以及配套设备四大系统性挑战；\n③分析人士认为，玻璃基板封装实现大规模应用至少需要3-5年。",
-          "heat": 81199,
+          "heat": 82891,
           "article_schema": "cailianshe://article_detail?article_id=2403170"
         },
         {
@@ -473,7 +473,7 @@
           "id": 2402983,
           "title": "最新爆料：iPhone Air二代明春再战 双摄、续航“补课”",
           "brief": "①爆料称，苹果正推进第二代 iPhone Air，最快明年春季发布，原型机已补上第二颗后置摄像头，并将重点改善续航问题，试图修复初代的核心槽点；\n②尽管第一代产品市场反应不佳、但苹果仍押注超薄、轻便、高颜值手机存在独立受众。",
-          "heat": 299597,
+          "heat": 301536,
           "article_schema": "cailianshe://article_detail?article_id=2402983"
         },
         {
@@ -481,7 +481,7 @@
           "id": 2403026,
           "title": "字节跳动加量采购国产芯片 国产算力有望迈入供需两旺格局",
           "brief": "①据第一财经报道，行业人士称字节跳动正与天数智芯讨论采购至少5万颗AI芯片。\n②开源证券表示，阿里、腾讯等国内CSP均表示将加大资本开支，并且随着国产芯片供应的逐步释放，算力供应局面能得到改善，国产算力迎来新机遇。",
-          "heat": 200413,
+          "heat": 201756,
           "article_schema": "cailianshe://article_detail?article_id=2403026"
         }
       ],
@@ -489,14 +489,14 @@
     },
     {
       "source": "同花顺",
-      "timestamp": "2026-06-18 11:09",
+      "timestamp": "2026-06-18 11:12",
       "stocks": [
         {
           "rank": 1,
           "code": "601991.SH",
           "name": "大唐发电",
           "heat": "56353508",
-          "change": -3.724,
+          "change": -3.943,
           "rank_change": 0,
           "concept_tags": [
             "绿色电力",
@@ -510,7 +510,7 @@
           "code": "000725.SZ",
           "name": "京东方A",
           "heat": "51519091",
-          "change": -0.7519,
+          "change": -1.0526,
           "rank_change": 0,
           "concept_tags": [
             "电子纸",
@@ -524,7 +524,7 @@
           "code": "600487.SH",
           "name": "亨通光电",
           "heat": "39501931",
-          "change": 3.0811,
+          "change": 2.2523,
           "rank_change": 0,
           "concept_tags": [
             "光纤概念",
@@ -538,7 +538,7 @@
           "code": "600584.SH",
           "name": "长电科技",
           "heat": "35001695",
-          "change": 3.1556,
+          "change": 2.7764,
           "rank_change": 0,
           "concept_tags": [
             "国家大基金持股",
@@ -552,7 +552,7 @@
           "code": "600667.SH",
           "name": "太极实业",
           "heat": "31404602",
-          "change": 4.1009,
+          "change": 3.4175,
           "rank_change": 0,
           "concept_tags": [
             "存储芯片",
@@ -566,7 +566,7 @@
           "code": "603986.SH",
           "name": "兆易创新",
           "heat": "29726372",
-          "change": 8.1274,
+          "change": 7.6514,
           "rank_change": 1,
           "concept_tags": [
             "存储芯片",
@@ -580,7 +580,7 @@
           "code": "002185.SZ",
           "name": "华天科技",
           "heat": "29550242",
-          "change": 2.9396,
+          "change": 2.6247,
           "rank_change": 1,
           "concept_tags": [
             "国家大基金持股",
@@ -594,7 +594,7 @@
           "code": "600522.SH",
           "name": "中天科技",
           "heat": "28433498",
-          "change": 3.6787,
+          "change": 3.4784,
           "rank_change": -2,
           "concept_tags": [
             "光纤概念",
@@ -608,7 +608,7 @@
           "code": "000636.SZ",
           "name": "风华高科",
           "heat": "24913544",
-          "change": 1.5933,
+          "change": 1.1342,
           "rank_change": 0,
           "concept_tags": [
             "超级电容",
@@ -622,7 +622,7 @@
           "code": "600183.SH",
           "name": "生益科技",
           "heat": "23512893",
-          "change": 3.3861,
+          "change": 2.8365,
           "rank_change": 2,
           "concept_tags": [
             "PCB概念",
@@ -636,7 +636,7 @@
           "code": "001896.SZ",
           "name": "豫能控股",
           "heat": "22958826",
-          "change": -5.9283,
+          "change": -6.0202,
           "rank_change": 0,
           "concept_tags": [
             "抽水蓄能",
@@ -650,7 +650,7 @@
           "code": "002384.SZ",
           "name": "东山精密",
           "heat": "21932442",
-          "change": 6.8154,
+          "change": 6.2588,
           "rank_change": -2,
           "concept_tags": [
             "共封装光学(CPO)",
@@ -664,7 +664,7 @@
           "code": "600378.SH",
           "name": "昊华科技",
           "heat": "21746902",
-          "change": -0.3605,
+          "change": -0.7837,
           "rank_change": 2,
           "concept_tags": [
             "氟化工概念",
@@ -678,7 +678,7 @@
           "code": "600110.SH",
           "name": "诺德股份",
           "heat": "21340892",
-          "change": 0,
+          "change": -0.7549,
           "rank_change": 2,
           "concept_tags": [
             "PET铜箔",
@@ -692,7 +692,7 @@
           "code": "600396.SH",
           "name": "华电辽能",
           "heat": "20969054",
-          "change": -6.3483,
+          "change": -6.236,
           "rank_change": -2,
           "concept_tags": [
             "超超临界发电",
@@ -706,7 +706,7 @@
           "code": "002436.SZ",
           "name": "兴森科技",
           "heat": "20889891",
-          "change": 1.9665,
+          "change": 1.3808,
           "rank_change": -2,
           "concept_tags": [
             "PCB概念",
@@ -720,7 +720,7 @@
           "code": "600105.SH",
           "name": "永鼎股份",
           "heat": "19218406",
-          "change": -0.3804,
+          "change": -0.6023,
           "rank_change": 0,
           "concept_tags": [
             "共封装光学(CPO)",
@@ -734,7 +734,7 @@
           "code": "600176.SH",
           "name": "中国巨石",
           "heat": "19156191",
-          "change": 0,
+          "change": 0.0916,
           "rank_change": 1,
           "concept_tags": [
             "PCB概念",
@@ -748,7 +748,7 @@
           "code": "300285.SZ",
           "name": "国瓷材料",
           "heat": "19122024",
-          "change": 16.1401,
+          "change": 14.4713,
           "rank_change": 6,
           "concept_tags": [
             "共封装光学(CPO)",
@@ -762,7 +762,7 @@
           "code": "002156.SZ",
           "name": "通富微电",
           "heat": "19120208",
-          "change": 1.8298,
+          "change": 1.6215,
           "rank_change": 0,
           "concept_tags": [
             "国家大基金持股",
@@ -776,7 +776,7 @@
           "code": "000100.SZ",
           "name": "TCL科技",
           "heat": "19079176",
-          "change": -1.7578,
+          "change": -2.1484,
           "rank_change": 2,
           "concept_tags": [
             "MicroLED概念",
@@ -790,7 +790,7 @@
           "code": "002463.SZ",
           "name": "沪电股份",
           "heat": "18808106",
-          "change": 0.4435,
+          "change": 0.0751,
           "rank_change": -4,
           "concept_tags": [
             "PCB概念",
@@ -804,7 +804,7 @@
           "code": "300475.SZ",
           "name": "香农芯创",
           "heat": "18689928",
-          "change": 3.1432,
+          "change": 2.6132,
           "rank_change": 3,
           "concept_tags": [
             "存储芯片",
@@ -832,7 +832,7 @@
           "code": "600186.SH",
           "name": "莲花控股",
           "heat": "17580838",
-          "change": -0.6821,
+          "change": -0.8186,
           "rank_change": -3,
           "concept_tags": [
             "算力租赁",
@@ -860,7 +860,7 @@
           "code": "600206.SH",
           "name": "有研新材",
           "heat": "17187724",
-          "change": 2.2619,
+          "change": 1.8095,
           "rank_change": -6,
           "concept_tags": [
             "中芯国际概念",
@@ -874,7 +874,7 @@
           "code": "002407.SZ",
           "name": "多氟多",
           "heat": "17187186",
-          "change": -2.8594,
+          "change": -2.9374,
           "rank_change": -4,
           "concept_tags": [
             "氟化工概念",
@@ -888,7 +888,7 @@
           "code": "600498.SH",
           "name": "烽火通信",
           "heat": "15906685",
-          "change": -0.2347,
+          "change": -0.3652,
           "rank_change": -2,
           "concept_tags": [
             "光纤概念",
@@ -902,7 +902,7 @@
           "code": "603601.SH",
           "name": "再升科技",
           "heat": "15874157",
-          "change": -4.8827,
+          "change": -4.9461,
           "rank_change": 1,
           "concept_tags": [
             "大飞机",
@@ -916,7 +916,7 @@
           "code": "603629.SH",
           "name": "利通电子",
           "heat": "15763770",
-          "change": 5.8898,
+          "change": 5.908,
           "rank_change": 5,
           "concept_tags": [
             "算力租赁",
@@ -944,7 +944,7 @@
           "code": "000021.SZ",
           "name": "深科技",
           "heat": "15081392",
-          "change": 0.1631,
+          "change": -0.1165,
           "rank_change": 4,
           "concept_tags": [
             "存储芯片",
@@ -958,7 +958,7 @@
           "code": "601138.SH",
           "name": "工业富联",
           "heat": "14947817",
-          "change": 4.4191,
+          "change": 4.4466,
           "rank_change": 5,
           "concept_tags": [
             "同花顺果指数",
@@ -972,7 +972,7 @@
           "code": "300136.SZ",
           "name": "信维通信",
           "heat": "14920176",
-          "change": 3.6283,
+          "change": 3.4577,
           "rank_change": -5,
           "concept_tags": [
             "同花顺果指数",
@@ -986,7 +986,7 @@
           "code": "002585.SZ",
           "name": "双星新材",
           "heat": "14861630",
-          "change": 1.2113,
+          "change": 1.144,
           "rank_change": -7,
           "concept_tags": [
             "PET铜箔",
@@ -1000,7 +1000,7 @@
           "code": "603773.SH",
           "name": "沃格光电",
           "heat": "14845996",
-          "change": -2.0646,
+          "change": -2.5402,
           "rank_change": -3,
           "concept_tags": [
             "MicroLED概念",
@@ -1014,7 +1014,7 @@
           "code": "000657.SZ",
           "name": "中钨高新",
           "heat": "14719658",
-          "change": 2.7589,
+          "change": 1.977,
           "rank_change": -3,
           "concept_tags": [
             "PCB概念",
@@ -1028,7 +1028,7 @@
           "code": "600392.SH",
           "name": "盛和资源",
           "heat": "14319568",
-          "change": 7.5747,
+          "change": 7.2967,
           "rank_change": -1,
           "concept_tags": [
             "稀土永磁",
@@ -1042,7 +1042,7 @@
           "code": "301217.SZ",
           "name": "铜冠铜箔",
           "heat": "14318836",
-          "change": 6.346,
+          "change": 6.6817,
           "rank_change": -7,
           "concept_tags": [
             "PET铜箔",
@@ -1056,7 +1056,7 @@
           "code": "600869.SH",
           "name": "远东股份",
           "heat": "14231000",
-          "change": -1.6837,
+          "change": -2.3752,
           "rank_change": 2,
           "concept_tags": [
             "光纤概念",
@@ -1070,7 +1070,7 @@
           "code": "600460.SH",
           "name": "士兰微",
           "heat": "14094810",
-          "change": 0,
+          "change": 0.0245,
           "rank_change": 0,
           "concept_tags": [
             "国家大基金持股",
@@ -1098,7 +1098,7 @@
           "code": "002008.SZ",
           "name": "大族激光",
           "heat": "13746652",
-          "change": 0.3828,
+          "change": -0.1472,
           "rank_change": 1,
           "concept_tags": [
             "光纤概念",
@@ -1112,7 +1112,7 @@
           "code": "002421.SZ",
           "name": "达实智能",
           "heat": "13743668",
-          "change": 0.5222,
+          "change": 0.2611,
           "rank_change": -1,
           "concept_tags": [
             "数字孪生",
@@ -1126,7 +1126,7 @@
           "code": "000066.SZ",
           "name": "中国长城",
           "heat": "13544971",
-          "change": -0.8422,
+          "change": -1.1791,
           "rank_change": 10,
           "concept_tags": [
             "东数西算(算力)",
@@ -1140,7 +1140,7 @@
           "code": "603002.SH",
           "name": "宏昌电子",
           "heat": "13541806",
-          "change": 0.7328,
+          "change": 1.0345,
           "rank_change": -1,
           "concept_tags": [
             "PCB概念",
@@ -1154,7 +1154,7 @@
           "code": "000988.SZ",
           "name": "华工科技",
           "heat": "13352455",
-          "change": 5.5598,
+          "change": 6.3809,
           "rank_change": 1,
           "concept_tags": [
             "F5G概念",
@@ -1168,7 +1168,7 @@
           "code": "002428.SZ",
           "name": "云南锗业",
           "heat": "13236476",
-          "change": 2.7806,
+          "change": 2.3373,
           "rank_change": -9,
           "concept_tags": [
             "光纤概念",
@@ -1196,7 +1196,7 @@
           "code": "300433.SZ",
           "name": "蓝思科技",
           "heat": "13125757",
-          "change": 10.4081,
+          "change": 10.1152,
           "rank_change": 6,
           "concept_tags": [
             "同花顺果指数",
@@ -1210,7 +1210,7 @@
           "code": "002938.SZ",
           "name": "鹏鼎控股",
           "heat": "13112243",
-          "change": -0.1597,
+          "change": -0.2437,
           "rank_change": 1,
           "concept_tags": [
             "同花顺果指数",
@@ -1224,7 +1224,7 @@
           "code": "600367.SH",
           "name": "红星发展",
           "heat": "13050955",
-          "change": 0.2802,
+          "change": 0.0701,
           "rank_change": 2,
           "concept_tags": [
             "固态电池",
@@ -1238,7 +1238,7 @@
           "code": "605589.SH",
           "name": "圣泉集团",
           "heat": "12876501",
-          "change": 5.5873,
+          "change": 5.7078,
           "rank_change": -2,
           "concept_tags": [
             "光刻胶",
@@ -1252,7 +1252,7 @@
           "code": "001696.SZ",
           "name": "宗申动力",
           "heat": "12636655",
-          "change": -2.0231,
+          "change": -2.0644,
           "rank_change": -5,
           "concept_tags": [
             "航空发动机",
@@ -1266,7 +1266,7 @@
           "code": "002361.SZ",
           "name": "神剑股份",
           "heat": "12545356",
-          "change": -1.7286,
+          "change": -1.3444,
           "rank_change": 2,
           "concept_tags": [
             "航空发动机",
@@ -1294,7 +1294,7 @@
           "code": "001309.SZ",
           "name": "德明利",
           "heat": "12111578",
-          "change": 0.4834,
+          "change": -0.2128,
           "rank_change": 3,
           "concept_tags": [
             "存储芯片",
@@ -1308,7 +1308,7 @@
           "code": "001257.SZ",
           "name": "盛龙股份",
           "heat": "11945730",
-          "change": -4.2176,
+          "change": -4.5538,
           "rank_change": -11,
           "concept_tags": [
             "金属铅",
@@ -1322,7 +1322,7 @@
           "code": "605358.SH",
           "name": "立昂微",
           "heat": "11935125",
-          "change": 0.3524,
+          "change": -0.0141,
           "rank_change": 2,
           "concept_tags": [
             "中芯国际概念",
@@ -1336,7 +1336,7 @@
           "code": "600549.SH",
           "name": "厦门钨业",
           "heat": "11870108",
-          "change": -2.338,
+          "change": -3.0059,
           "rank_change": -2,
           "concept_tags": [
             "小金属概念",
@@ -1350,7 +1350,7 @@
           "code": "002636.SZ",
           "name": "金安国纪",
           "heat": "11822952",
-          "change": 8.3168,
+          "change": 7.8257,
           "rank_change": -11,
           "concept_tags": [
             "PCB概念",
@@ -1378,7 +1378,7 @@
           "code": "301526.SZ",
           "name": "国际复材",
           "heat": "11577534",
-          "change": 1.8394,
+          "change": 1.6654,
           "rank_change": -4,
           "concept_tags": [
             "PCB概念",
@@ -1392,7 +1392,7 @@
           "code": "600500.SH",
           "name": "中化国际",
           "heat": "11555732",
-          "change": -4.8913,
+          "change": -4.6739,
           "rank_change": -11,
           "concept_tags": [
             "环氧丙烷",
@@ -1406,7 +1406,7 @@
           "code": "600703.SH",
           "name": "三安光电",
           "heat": "11553323",
-          "change": 3.2051,
+          "change": 2.2145,
           "rank_change": 5,
           "concept_tags": [
             "共封装光学(CPO)",
@@ -1420,7 +1420,7 @@
           "code": "002709.SZ",
           "name": "天赐材料",
           "heat": "11540365",
-          "change": -2.7247,
+          "change": -2.9139,
           "rank_change": -4,
           "concept_tags": [
             "氟化工概念",
@@ -1434,7 +1434,7 @@
           "code": "002171.SZ",
           "name": "楚江新材",
           "heat": "10943315",
-          "change": -0.4667,
+          "change": -0.7333,
           "rank_change": 5,
           "concept_tags": [
             "培育钻石",
@@ -1448,7 +1448,7 @@
           "code": "601208.SH",
           "name": "东材科技",
           "heat": "10826998",
-          "change": 3.3607,
+          "change": 2.8552,
           "rank_change": 1,
           "concept_tags": [
             "PET铜箔",
@@ -1462,7 +1462,7 @@
           "code": "300308.SZ",
           "name": "中际旭创",
           "heat": "10620046",
-          "change": 4.9189,
+          "change": 4.9776,
           "rank_change": 8,
           "concept_tags": [
             "共封装光学(CPO)",
@@ -1476,7 +1476,7 @@
           "code": "300088.SZ",
           "name": "长信科技",
           "heat": "10592131",
-          "change": 0.7569,
+          "change": 0.8515,
           "rank_change": -3,
           "concept_tags": [
             "电子纸",
@@ -1490,7 +1490,7 @@
           "code": "000539.SZ",
           "name": "粤电力A",
           "heat": "10429323",
-          "change": -7.1776,
+          "change": -7.056,
           "rank_change": 3,
           "concept_tags": [
             "超超临界发电",
@@ -1504,7 +1504,7 @@
           "code": "603618.SH",
           "name": "杭电股份",
           "heat": "10351032",
-          "change": -0.4253,
+          "change": -0.3286,
           "rank_change": -6,
           "concept_tags": [
             "光纤概念",
@@ -1518,7 +1518,7 @@
           "code": "301308.SZ",
           "name": "江波龙",
           "heat": "10316827",
-          "change": 0.7154,
+          "change": 0.1382,
           "rank_change": 2,
           "concept_tags": [
             "存储芯片",
@@ -1532,7 +1532,7 @@
           "code": "002129.SZ",
           "name": "TCL中环",
           "heat": "10225241",
-          "change": -4.2017,
+          "change": -3.3613,
           "rank_change": 4,
           "concept_tags": [
             "BC电池",
@@ -1560,7 +1560,7 @@
           "code": "603256.SH",
           "name": "宏和科技",
           "heat": "10165728",
-          "change": 0.927,
+          "change": 0.6837,
           "rank_change": 6,
           "concept_tags": [
             "PCB概念",
@@ -1574,7 +1574,7 @@
           "code": "601179.SH",
           "name": "中国西电",
           "heat": "10159390",
-          "change": -3.6732,
+          "change": -3.9265,
           "rank_change": -14,
           "concept_tags": [
             "柔性直流输电",
@@ -1588,7 +1588,7 @@
           "code": "601958.SH",
           "name": "金钼股份",
           "heat": "10115004",
-          "change": -3.8637,
+          "change": -3.7583,
           "rank_change": -5,
           "concept_tags": [
             "小金属概念",
@@ -1602,7 +1602,7 @@
           "code": "000630.SZ",
           "name": "铜陵有色",
           "heat": "10082097",
-          "change": -0.1323,
+          "change": -0.5291,
           "rank_change": 2,
           "concept_tags": [
             "金属铜",
@@ -1616,7 +1616,7 @@
           "code": "002741.SZ",
           "name": "光华科技",
           "heat": "10069681",
-          "change": 1.927,
+          "change": 2.0538,
           "rank_change": -9,
           "concept_tags": [
             "PET铜箔",
@@ -1644,7 +1644,7 @@
           "code": "600707.SH",
           "name": "彩虹股份",
           "heat": "9945415",
-          "change": -6.5561,
+          "change": -6.872,
           "rank_change": -3,
           "concept_tags": [
             "OLED",
@@ -1658,7 +1658,7 @@
           "code": "603993.SH",
           "name": "洛阳钼业",
           "heat": "9493781",
-          "change": -0.6941,
+          "change": -1.289,
           "rank_change": 4,
           "concept_tags": [
             "黄金概念",
@@ -1672,7 +1672,7 @@
           "code": "002080.SZ",
           "name": "中材科技",
           "heat": "9465473",
-          "change": -2.0022,
+          "change": -2.1842,
           "rank_change": -4,
           "concept_tags": [
             "PCB概念",
@@ -1700,7 +1700,7 @@
           "code": "300476.SZ",
           "name": "胜宏科技",
           "heat": "9307629",
-          "change": 1.8247,
+          "change": 1.7141,
           "rank_change": 2,
           "concept_tags": [
             "共封装光学(CPO)",
@@ -1714,7 +1714,7 @@
           "code": "603738.SH",
           "name": "泰晶科技",
           "heat": "8971638",
-          "change": 1.5085,
+          "change": 0.7966,
           "rank_change": -1,
           "concept_tags": [
             "光刻机",
@@ -1728,7 +1728,7 @@
           "code": "002149.SZ",
           "name": "西部材料",
           "heat": "8912274",
-          "change": -2.9975,
+          "change": -2.9808,
           "rank_change": 4,
           "concept_tags": [
             "航空发动机",
@@ -1742,7 +1742,7 @@
           "code": "600160.SH",
           "name": "巨化股份",
           "heat": "8854173",
-          "change": -7.5262,
+          "change": -8.4067,
           "rank_change": 2,
           "concept_tags": [
             "PVDF概念",
@@ -1756,7 +1756,7 @@
           "code": "002409.SZ",
           "name": "雅克科技",
           "heat": "8850426",
-          "change": -0.48,
+          "change": -0.8248,
           "rank_change": -1,
           "concept_tags": [
             "国家大基金持股",
@@ -1784,7 +1784,7 @@
           "code": "600673.SH",
           "name": "东阳光",
           "heat": "8653148",
-          "change": 1.0867,
+          "change": 0.8638,
           "rank_change": 10,
           "concept_tags": [
             "算力租赁",
@@ -1798,7 +1798,7 @@
           "code": "603186.SH",
           "name": "华正新材",
           "heat": "8634814",
-          "change": 2.9382,
+          "change": 1.9279,
           "rank_change": -9,
           "concept_tags": [
             "先进封装",
@@ -1812,7 +1812,7 @@
           "code": "688525.SH",
           "name": "佰维存储",
           "heat": "8566113",
-          "change": 2.973,
+          "change": 2.4297,
           "rank_change": 6,
           "concept_tags": [
             "存储芯片",
@@ -1826,7 +1826,7 @@
           "code": "002851.SZ",
           "name": "麦格米特",
           "heat": "8545777",
-          "change": 0.8888,
+          "change": 0.6819,
           "rank_change": -12,
           "concept_tags": [
             "中国AI 50",
@@ -1840,7 +1840,7 @@
           "code": "002484.SZ",
           "name": "江海股份",
           "heat": "8544123",
-          "change": 2.7637,
+          "change": 2.3444,
           "rank_change": 2,
           "concept_tags": [
             "超级电容",
@@ -1854,7 +1854,7 @@
           "code": "002378.SZ",
           "name": "章源钨业",
           "heat": "8476386",
-          "change": -2.5229,
+          "change": -2.9243,
           "rank_change": -2,
           "concept_tags": [
             "小金属概念",
@@ -1868,7 +1868,7 @@
           "code": "300014.SZ",
           "name": "亿纬锂能",
           "heat": "8453931",
-          "change": -2.0136,
+          "change": -2.443,
           "rank_change": -5,
           "concept_tags": [
             "钠离子电池",
@@ -1882,7 +1882,7 @@
           "code": "000815.SZ",
           "name": "美利云",
           "heat": "8404740",
-          "change": -0.1736,
+          "change": -0.8681,
           "rank_change": 5,
           "concept_tags": [
             "算力租赁",
@@ -1898,8 +1898,8 @@
           "code": "885937",
           "name": "培育钻石",
           "type": "concept",
-          "heat": "300780.0",
-          "change": 3.8225,
+          "heat": "302200.0",
+          "change": 3.7166,
           "rank_change": 0,
           "tag": "2家涨停",
           "hot_tag": "10天9次上榜"
@@ -1909,8 +1909,8 @@
           "code": "886042",
           "name": "存储芯片",
           "type": "concept",
-          "heat": "216666.5",
-          "change": 1.1092,
+          "heat": "214128.5",
+          "change": 0.9601,
           "rank_change": 0,
           "tag": "3家涨停",
           "hot_tag": "连续183天上榜"
@@ -1920,8 +1920,8 @@
           "code": "886033",
           "name": "共封装光学(CPO)",
           "type": "concept",
-          "heat": "201924.5",
-          "change": 1.5445,
+          "heat": "201998.5",
+          "change": 1.3908,
           "rank_change": 0,
           "tag": "4家涨停",
           "hot_tag": "连续230天上榜"
@@ -1931,52 +1931,52 @@
           "code": "885959",
           "name": "PCB概念",
           "type": "concept",
-          "heat": "194715.5",
-          "change": 0.954,
+          "heat": "192411.5",
+          "change": 0.8065,
           "rank_change": 0,
-          "tag": "6家涨停",
+          "tag": "7家涨停",
           "hot_tag": "连续53天上榜"
         },
         {
           "rank": 5,
-          "code": "885926",
-          "name": "牙科医疗",
+          "code": "885343",
+          "name": "稀土永磁",
           "type": "concept",
-          "heat": "87772.0",
-          "change": 3.5135,
-          "rank_change": 0,
-          "tag": "4家涨停",
-          "hot_tag": "首次上榜"
+          "heat": "88163.5",
+          "change": 1.385,
+          "rank_change": 2,
+          "tag": "3家涨停",
+          "hot_tag": "5天5次上榜"
         },
         {
           "rank": 6,
           "code": "886050",
           "name": "算力租赁",
           "type": "concept",
-          "heat": "87443.5",
-          "change": 0.9687,
+          "heat": "85698.0",
+          "change": 0.8573,
           "rank_change": 0,
           "tag": "4家涨停",
           "hot_tag": "连续94天上榜"
         },
         {
           "rank": 7,
-          "code": "885343",
-          "name": "稀土永磁",
+          "code": "885926",
+          "name": "牙科医疗",
           "type": "concept",
-          "heat": "85404.0",
-          "change": 1.5825,
-          "rank_change": 0,
-          "tag": "3家涨停",
-          "hot_tag": "5天5次上榜"
+          "heat": "76869.5",
+          "change": 3.357,
+          "rank_change": -2,
+          "tag": "4家涨停",
+          "hot_tag": "首次上榜"
         },
         {
           "rank": 8,
           "code": "886078",
           "name": "商业航天",
           "type": "concept",
-          "heat": "68170.0",
-          "change": 0.3645,
+          "heat": "68628.0",
+          "change": 0.2737,
           "rank_change": 0,
           "tag": "5家涨停",
           "hot_tag": "连续159天上榜"
@@ -1986,8 +1986,8 @@
           "code": "886069",
           "name": "人形机器人",
           "type": "concept",
-          "heat": "60350.5",
-          "change": 1.0317,
+          "heat": "61610.0",
+          "change": 0.9129,
           "rank_change": 0,
           "tag": "10家涨停",
           "hot_tag": "连续394天上榜"
@@ -1997,98 +1997,98 @@
           "code": "886009",
           "name": "先进封装",
           "type": "concept",
-          "heat": "53774.5",
-          "change": 1.0545,
+          "heat": "51957.0",
+          "change": 0.8854,
           "rank_change": 0,
           "tag": "4家涨停",
           "hot_tag": "连续23天上榜"
         },
         {
           "rank": 11,
-          "code": "886084",
-          "name": "光纤概念",
-          "type": "concept",
-          "heat": "50633.5",
-          "change": 0.4855,
-          "rank_change": 0,
-          "tag": "2家涨停",
-          "hot_tag": "连续59天上榜"
-        },
-        {
-          "rank": 12,
           "code": "886015",
           "name": "创新药",
           "type": "concept",
-          "heat": "48921.5",
-          "change": 1.7009,
-          "rank_change": 0,
-          "tag": "3家涨停",
+          "heat": "51835.5",
+          "change": 1.5635,
+          "rank_change": 1,
+          "tag": "4家涨停",
           "hot_tag": "连续60天上榜"
+        },
+        {
+          "rank": 12,
+          "code": "886084",
+          "name": "光纤概念",
+          "type": "concept",
+          "heat": "50103.5",
+          "change": 0.3499,
+          "rank_change": -1,
+          "tag": "2家涨停",
+          "hot_tag": "连续59天上榜"
         },
         {
           "rank": 13,
           "code": "886044",
           "name": "液冷服务器",
           "type": "concept",
-          "heat": "37026.5",
-          "change": 1.1868,
+          "heat": "37267.0",
+          "change": 1.1028,
           "rank_change": 0,
-          "tag": "6家涨停",
+          "tag": "7家涨停",
           "hot_tag": "5天4次上榜"
         },
         {
           "rank": 14,
-          "code": "886020",
-          "name": "PET铜箔",
-          "type": "concept",
-          "heat": "25039.0",
-          "change": -0.1664,
-          "rank_change": 0,
-          "tag": "2家涨停",
-          "hot_tag": "5天4次上榜"
-        },
-        {
-          "rank": 15,
           "code": "886108",
           "name": "AI应用",
           "type": "concept",
-          "heat": "24319.5",
-          "change": 0.4659,
-          "rank_change": 2,
+          "heat": "25100.5",
+          "change": 0.3701,
+          "rank_change": 1,
           "tag": "6家涨停",
           "hot_tag": "连续103天上榜"
         },
         {
-          "rank": 17,
-          "code": "885893",
-          "name": "国家大基金持股",
+          "rank": 15,
+          "code": "886020",
+          "name": "PET铜箔",
           "type": "concept",
-          "heat": "22288.5",
-          "change": 1.4614,
+          "heat": "24248.0",
+          "change": -0.2879,
           "rank_change": -1,
-          "tag": null,
-          "hot_tag": "5天3次上榜"
+          "tag": "3家涨停",
+          "hot_tag": "5天4次上榜"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "code": "885756",
           "name": "芯片概念",
           "type": "concept",
-          "heat": "21731.5",
-          "change": 0.7076,
-          "rank_change": 0,
+          "heat": "21699.5",
+          "change": 0.5695,
+          "rank_change": 1,
           "tag": "13家涨停",
           "hot_tag": "连续54天上榜"
+        },
+        {
+          "rank": 18,
+          "code": "885893",
+          "name": "国家大基金持股",
+          "type": "concept",
+          "heat": "21137.5",
+          "change": 1.2772,
+          "rank_change": -1,
+          "tag": null,
+          "hot_tag": "5天3次上榜"
         },
         {
           "rank": 19,
           "code": "885552",
           "name": "小金属概念",
           "type": "concept",
-          "heat": "20875.0",
-          "change": -0.3155,
+          "heat": "20661.5",
+          "change": -0.5177,
           "rank_change": 0,
-          "tag": "6家涨停",
+          "tag": "7家涨停",
           "hot_tag": "7天6次上榜"
         },
         {
@@ -2096,9 +2096,9 @@
           "code": "885887",
           "name": "数据中心(AIDC)",
           "type": "concept",
-          "heat": "19280.5",
-          "change": 0.4457,
-          "rank_change": 1,
+          "heat": "19026.0",
+          "change": 0.3511,
+          "rank_change": 0,
           "tag": "9家涨停",
           "hot_tag": "连续17天上榜"
         },
@@ -2107,8 +2107,8 @@
           "code": "881121",
           "name": "半导体",
           "type": "industry",
-          "heat": "375912.5",
-          "change": 1.724,
+          "heat": "374700.5",
+          "change": 1.5256,
           "rank_change": 0,
           "tag": "2家涨停",
           "hot_tag": "连续866天上榜"
@@ -2118,8 +2118,8 @@
           "code": "881145",
           "name": "电力",
           "type": "industry",
-          "heat": "352476.5",
-          "change": -3.1929,
+          "heat": "356228.0",
+          "change": -3.2577,
           "rank_change": 0,
           "tag": "1家涨停",
           "hot_tag": "连续107天上榜"
@@ -2129,8 +2129,8 @@
           "code": "881157",
           "name": "证券",
           "type": "industry",
-          "heat": "256728.5",
-          "change": -2.6057,
+          "heat": "255940.5",
+          "change": -2.836,
           "rank_change": 0,
           "tag": null,
           "hot_tag": "连续866天上榜"
@@ -2140,8 +2140,8 @@
           "code": "881170",
           "name": "小金属",
           "type": "industry",
-          "heat": "228970.5",
-          "change": 0.6713,
+          "heat": "224289.0",
+          "change": 0.3577,
           "rank_change": 0,
           "tag": "3家涨停",
           "hot_tag": "10天9次上榜"
@@ -2151,8 +2151,8 @@
           "code": "881270",
           "name": "元件",
           "type": "industry",
-          "heat": "159643.5",
-          "change": 1.204,
+          "heat": "153820.0",
+          "change": 0.9778,
           "rank_change": 0,
           "tag": "3家涨停",
           "hot_tag": "连续53天上榜"
@@ -2162,74 +2162,74 @@
           "code": "881273",
           "name": "白酒",
           "type": "industry",
-          "heat": "129035.5",
-          "change": -1.5078,
+          "heat": "127089.5",
+          "change": -1.3644,
           "rank_change": 0,
           "tag": null,
           "hot_tag": "连续477天上榜"
         },
         {
           "rank": 7,
-          "code": "881281",
-          "name": "电池",
-          "type": "industry",
-          "heat": "109499.5",
-          "change": -1.2706,
-          "rank_change": 0,
-          "tag": "1家涨停",
-          "hot_tag": "连续72天上榜"
-        },
-        {
-          "rank": 8,
           "code": "881168",
           "name": "工业金属",
           "type": "industry",
-          "heat": "108042.5",
-          "change": -0.7285,
-          "rank_change": 0,
-          "tag": null,
+          "heat": "110250.5",
+          "change": -0.9615,
+          "rank_change": 1,
+          "tag": "1家涨停",
           "hot_tag": "5天5次上榜"
+        },
+        {
+          "rank": 8,
+          "code": "881281",
+          "name": "电池",
+          "type": "industry",
+          "heat": "108468.5",
+          "change": -1.4401,
+          "rank_change": -1,
+          "tag": "1家涨停",
+          "hot_tag": "连续72天上榜"
         },
         {
           "rank": 9,
           "code": "881129",
           "name": "通信设备",
           "type": "industry",
-          "heat": "91881.5",
-          "change": 1.0852,
-          "rank_change": 1,
+          "heat": "93908.5",
+          "change": 0.9233,
+          "rank_change": 0,
           "tag": "3家涨停",
           "hot_tag": "连续90天上榜"
         },
         {
           "rank": 10,
-          "code": "881122",
-          "name": "光学光电子",
-          "type": "industry",
-          "heat": "87988.0",
-          "change": -1.4048,
-          "rank_change": -1,
-          "tag": null,
-          "hot_tag": "连续23天上榜"
-        },
-        {
-          "rank": 11,
           "code": "884215",
           "name": "稀土",
           "type": "industry",
-          "heat": "83787.5",
-          "change": 5.3834,
-          "rank_change": 0,
+          "heat": "85600.0",
+          "change": 4.7689,
+          "rank_change": 1,
           "tag": null,
           "hot_tag": "5天3次上榜"
+        },
+        {
+          "rank": 11,
+          "code": "881122",
+          "name": "光学光电子",
+          "type": "industry",
+          "heat": "84665.5",
+          "change": -1.5347,
+          "rank_change": -1,
+          "tag": null,
+          "hot_tag": "连续23天上榜"
         },
         {
           "rank": 12,
           "code": "881155",
           "name": "银行",
           "type": "industry",
-          "heat": "72766.5",
-          "change": -2.108,
+          "heat": "74035.0",
+          "change": -2.1755,
           "rank_change": 0,
           "tag": null,
           "hot_tag": "连续866天上榜"
@@ -2239,8 +2239,8 @@
           "code": "884054",
           "name": "铜",
           "type": "industry",
-          "heat": "70740.5",
-          "change": 1.4315,
+          "heat": "71855.5",
+          "change": 1.1409,
           "rank_change": 0,
           "tag": null,
           "hot_tag": "5天3次上榜"
@@ -2250,8 +2250,8 @@
           "code": "884282",
           "name": "钨",
           "type": "industry",
-          "heat": "66495.5",
-          "change": -1.1057,
+          "heat": "65904.0",
+          "change": -1.6972,
           "rank_change": 0,
           "tag": null,
           "hot_tag": "连续12天上榜"
@@ -2261,8 +2261,8 @@
           "code": "881158",
           "name": "零售",
           "type": "industry",
-          "heat": "56462.5",
-          "change": -0.8981,
+          "heat": "55847.5",
+          "change": -0.9347,
           "rank_change": 0,
           "tag": "1家涨停",
           "hot_tag": "连续26天上榜"
@@ -2272,8 +2272,8 @@
           "code": "881164",
           "name": "文化传媒",
           "type": "industry",
-          "heat": "54399.0",
-          "change": 0.4721,
+          "heat": "54900.0",
+          "change": 0.3716,
           "rank_change": 0,
           "tag": "1家涨停",
           "hot_tag": "连续65天上榜"
@@ -2283,8 +2283,8 @@
           "code": "881278",
           "name": "电网设备",
           "type": "industry",
-          "heat": "53054.5",
-          "change": -1.1258,
+          "heat": "52203.5",
+          "change": -1.1825,
           "rank_change": 0,
           "tag": null,
           "hot_tag": "连续107天上榜"
@@ -2294,9 +2294,9 @@
           "code": "881167",
           "name": "非金属材料",
           "type": "industry",
-          "heat": "49852.0",
-          "change": 3.6087,
-          "rank_change": 1,
+          "heat": "51560.5",
+          "change": 3.4161,
+          "rank_change": 0,
           "tag": "3家涨停",
           "hot_tag": null
         },
@@ -2305,9 +2305,9 @@
           "code": "884229",
           "name": "半导体设备",
           "type": "industry",
-          "heat": "49153.5",
-          "change": 2.1293,
-          "rank_change": -1,
+          "heat": "47715.5",
+          "change": 2.0323,
+          "rank_change": 0,
           "tag": null,
           "hot_tag": "5天3次上榜"
         },
@@ -2316,8 +2316,8 @@
           "code": "881267",
           "name": "能源金属",
           "type": "industry",
-          "heat": "45863.5",
-          "change": -1.3952,
+          "heat": "45648.0",
+          "change": -1.6815,
           "rank_change": 0,
           "tag": "1家涨停",
           "hot_tag": "10天8次上榜"
@@ -2329,7 +2329,7 @@
     {
       "code": "603986.SH",
       "name": "兆易创新",
-      "score_raw": 206.14896040000002,
+      "score_raw": 205.88656020000002,
       "sources": [
         {
           "source": "财联社",
@@ -2353,7 +2353,7 @@
     {
       "code": "000725.SZ",
       "name": "京东方A",
-      "score_raw": 204.51924,
+      "score_raw": 204.15895999999998,
       "sources": [
         {
           "source": "财联社",
@@ -2377,7 +2377,7 @@
     {
       "code": "600584.SH",
       "name": "长电科技",
-      "score_raw": 202.87824008,
+      "score_raw": 202.63456000000002,
       "sources": [
         {
           "source": "财联社",
@@ -2401,7 +2401,7 @@
     {
       "code": "600487.SH",
       "name": "亨通光电",
-      "score_raw": 201.61044,
+      "score_raw": 200.95092,
       "sources": [
         {
           "source": "财联社",
@@ -2420,12 +2420,12 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 97.8
+      "score": 97.6
     },
     {
       "code": "002185.SZ",
       "name": "华天科技",
-      "score_raw": 198.30184,
+      "score_raw": 198.13188000000002,
       "sources": [
         {
           "source": "财联社",
@@ -2449,7 +2449,7 @@
     {
       "code": "600667.SH",
       "name": "太极实业",
-      "score_raw": 194.33035999999998,
+      "score_raw": 193.637,
       "sources": [
         {
           "source": "财联社",
@@ -2468,12 +2468,12 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 94.3
+      "score": 94.1
     },
     {
       "code": "601991.SH",
       "name": "大唐发电",
-      "score_raw": 193.48440000000002,
+      "score_raw": 193.3968,
       "sources": [
         {
           "source": "财联社",
@@ -2516,12 +2516,12 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 93.6
+      "score": 93.7
     },
     {
       "code": "600110.SH",
       "name": "诺德股份",
-      "score_raw": 192.351999998,
+      "score_raw": 191.93404,
       "sources": [
         {
           "source": "财联社",
@@ -2540,12 +2540,12 @@
       ],
       "popularity_tag": "4天3板",
       "analysis": null,
-      "score": 93.3
+      "score": 93.2
     },
     {
       "code": "000636.SZ",
       "name": "风华高科",
-      "score_raw": 190.61732,
+      "score_raw": 190.21368,
       "sources": [
         {
           "source": "财联社",
@@ -2564,12 +2564,12 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 92.5
+      "score": 92.4
     },
     {
       "code": "600522.SH",
       "name": "中天科技",
-      "score_raw": 183.90948012,
+      "score_raw": 183.75736,
       "sources": [
         {
           "source": "财联社",
@@ -2588,7 +2588,7 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 89.2
+      "score": 89.3
     },
     {
       "code": "002579.SZ",
@@ -2612,7 +2612,7 @@
       ],
       "popularity_tag": "2天2板",
       "analysis": "定增通过+PCB+高阶HDI+AIPC",
-      "score": 89.1
+      "score": 89.2
     },
     {
       "code": "002491.SZ",
@@ -2636,12 +2636,12 @@
       ],
       "popularity_tag": "2天2板",
       "analysis": "光纤光缆+产能扩张+数据中心",
-      "score": 86.1
+      "score": 86.2
     },
     {
       "code": "300475.SZ",
       "name": "香农芯创",
-      "score_raw": 176.31327996,
+      "score_raw": 175.97728,
       "sources": [
         {
           "source": "财联社",
@@ -2665,7 +2665,7 @@
     {
       "code": "600176.SH",
       "name": "中国巨石",
-      "score_raw": 173.83,
+      "score_raw": 173.97464000000002,
       "sources": [
         {
           "source": "财联社",
@@ -2684,12 +2684,12 @@
       ],
       "popularity_tag": "4天2板",
       "analysis": null,
-      "score": 84.3
+      "score": 84.5
     },
     {
       "code": "000100.SZ",
       "name": "TCL科技",
-      "score_raw": 172.59288,
+      "score_raw": 172.28064,
       "sources": [
         {
           "source": "财联社",
@@ -2713,7 +2713,7 @@
     {
       "code": "603773.SH",
       "name": "沃格光电",
-      "score_raw": 161.32416,
+      "score_raw": 160.93792000000002,
       "sources": [
         {
           "source": "财联社",
@@ -2732,12 +2732,12 @@
       ],
       "popularity_tag": "3天2板",
       "analysis": null,
-      "score": 78.3
+      "score": 78.2
     },
     {
       "code": "600392.SH",
       "name": "盛和资源",
-      "score_raw": 158.60588,
+      "score_raw": 158.67467999999997,
       "sources": [
         {
           "source": "财联社",
@@ -2756,12 +2756,12 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 76.9
+      "score": 77.1
     },
     {
       "code": "600186.SH",
       "name": "莲花控股",
-      "score_raw": 155.04116,
+      "score_raw": 155.17856,
       "sources": [
         {
           "source": "财联社",
@@ -2780,12 +2780,12 @@
       ],
       "popularity_tag": "3天2板",
       "analysis": null,
-      "score": 75.2
+      "score": 75.4
     },
     {
       "code": "601138.SH",
       "name": "工业富联",
-      "score_raw": 154.02164,
+      "score_raw": 153.91264,
       "sources": [
         {
           "source": "财联社",
@@ -2804,7 +2804,7 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 74.7
+      "score": 74.8
     },
     {
       "code": "600172.SH",
@@ -2828,12 +2828,12 @@
       ],
       "popularity_tag": "首板涨停",
       "analysis": "金刚石散热+培育钻石+许昌国资",
-      "score": 68.8
+      "score": 68.9
     },
     {
       "code": "300433.SZ",
       "name": "蓝思科技",
-      "score_raw": 138.8,
+      "score_raw": 138.744,
       "sources": [
         {
           "source": "财联社",
@@ -2852,12 +2852,12 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 67.3
+      "score": 67.4
     },
     {
       "code": "300308.SZ",
       "name": "中际旭创",
-      "score_raw": 125.52155992000002,
+      "score_raw": 125.50904000000001,
       "sources": [
         {
           "source": "财联社",
@@ -2876,7 +2876,7 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 60.9
+      "score": 61.0
     },
     {
       "code": "600353.SH",
@@ -2900,12 +2900,12 @@
       ],
       "popularity_tag": "6天5板",
       "analysis": "氮化铝+可控核聚变+定增受理",
-      "score": 58.9
+      "score": 59.0
     },
     {
       "code": "300088.SZ",
       "name": "长信科技",
-      "score_raw": 120.55676,
+      "score_raw": 120.59460000000001,
       "sources": [
         {
           "source": "财联社",
@@ -2924,12 +2924,12 @@
       ],
       "popularity_tag": "2天1板",
       "analysis": null,
-      "score": 58.5
+      "score": 58.6
     },
     {
       "code": "600707.SH",
       "name": "彩虹股份",
-      "score_raw": 100.15356,
+      "score_raw": 99.93520000000001,
       "sources": [
         {
           "source": "财联社",
@@ -2948,12 +2948,12 @@
       ],
       "popularity_tag": "2天1板",
       "analysis": null,
-      "score": 48.6
+      "score": 48.5
     },
     {
       "code": "600183.SH",
       "name": "生益科技",
-      "score_raw": 96.65444,
+      "score_raw": 96.4346,
       "sources": [
         {
           "source": "同花顺",
@@ -2968,12 +2968,12 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 46.9
+      "score": 46.8
     },
     {
       "code": "002384.SZ",
       "name": "东山精密",
-      "score_raw": 95.42616,
+      "score_raw": 95.20352,
       "sources": [
         {
           "source": "同花顺",
@@ -2988,12 +2988,12 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 46.3
+      "score": 46.2
     },
     {
       "code": "600378.SH",
       "name": "昊华科技",
-      "score_raw": 92.1558,
+      "score_raw": 91.98652,
       "sources": [
         {
           "source": "同花顺",
@@ -3013,7 +3013,7 @@
     {
       "code": "001896.SZ",
       "name": "豫能控股",
-      "score_raw": 91.62868,
+      "score_raw": 91.59192,
       "sources": [
         {
           "source": "同花顺",
@@ -3028,74 +3028,74 @@
       ],
       "popularity_tag": null,
       "analysis": null,
-      "score": 44.4
+      "score": 44.5
     }
   ],
   "hot_sectors": [
     {
       "name": "半导体",
       "type": "industry",
-      "score_raw": 375918.362,
+      "score_raw": 374706.2628,
       "sources": [
         {
           "source": "同花顺",
           "rank": 1
         }
       ],
-      "heat": 375912.5,
-      "change": 1.724,
+      "heat": 374700.5,
+      "change": 1.5256,
       "tag": "2家涨停",
       "score": 100.0
     },
     {
       "name": "电力",
       "type": "industry",
-      "score_raw": 352479.90355,
+      "score_raw": 356231.37115,
       "sources": [
         {
           "source": "同花顺",
           "rank": 2
         }
       ],
-      "heat": 352476.5,
-      "change": -3.1929,
+      "heat": 356228.0,
+      "change": -3.2577,
       "tag": "1家涨停",
-      "score": 93.8
+      "score": 95.1
     },
     {
       "name": "培育钻石",
       "type": "concept",
-      "score_raw": 300786.91125,
+      "score_raw": 302206.8583,
       "sources": [
         {
           "source": "同花顺",
           "rank": 1
         }
       ],
-      "heat": 300780.0,
-      "change": 3.8225,
+      "heat": 302200.0,
+      "change": 3.7166,
       "tag": "2家涨停",
-      "score": 80.0
+      "score": 80.7
     },
     {
       "name": "证券",
       "type": "industry",
-      "score_raw": 256732.19715,
+      "score_raw": 255944.082,
       "sources": [
         {
           "source": "同花顺",
           "rank": 3
         }
       ],
-      "heat": 256728.5,
-      "change": -2.6057,
+      "heat": 255940.5,
+      "change": -2.836,
       "tag": "连续866天上榜",
       "score": 68.3
     },
     {
       "name": "小金属概念",
       "type": "concept",
-      "score_raw": 249861.6779,
+      "score_raw": 244966.41999999998,
       "sources": [
         {
           "source": "同花顺",
@@ -3106,235 +3106,235 @@
           "rank": 4
         }
       ],
-      "heat": 20875.0,
-      "change": -0.3155,
-      "tag": "6家涨停",
-      "score": 66.5
+      "heat": 20661.5,
+      "change": -0.5177,
+      "tag": "7家涨停",
+      "score": 65.4
     },
     {
       "name": "存储芯片",
       "type": "concept",
-      "score_raw": 216672.0546,
+      "score_raw": 214133.98005,
       "sources": [
         {
           "source": "同花顺",
           "rank": 2
         }
       ],
-      "heat": 216666.5,
-      "change": 1.1092,
+      "heat": 214128.5,
+      "change": 0.9601,
       "tag": "3家涨停",
-      "score": 57.6
+      "score": 57.1
     },
     {
       "name": "共封装光学(CPO)",
       "type": "concept",
-      "score_raw": 201930.27225,
+      "score_raw": 202004.1954,
       "sources": [
         {
           "source": "同花顺",
           "rank": 3
         }
       ],
-      "heat": 201924.5,
-      "change": 1.5445,
+      "heat": 201998.5,
+      "change": 1.3908,
       "tag": "4家涨停",
-      "score": 53.7
+      "score": 53.9
     },
     {
       "name": "PCB概念",
       "type": "concept",
-      "score_raw": 194720.977,
+      "score_raw": 192416.90325,
       "sources": [
         {
           "source": "同花顺",
           "rank": 4
         }
       ],
-      "heat": 194715.5,
-      "change": 0.954,
-      "tag": "6家涨停",
-      "score": 51.8
+      "heat": 192411.5,
+      "change": 0.8065,
+      "tag": "7家涨停",
+      "score": 51.4
     },
     {
       "name": "元件",
       "type": "industry",
-      "score_raw": 159649.102,
+      "score_raw": 153825.4889,
       "sources": [
         {
           "source": "同花顺",
           "rank": 5
         }
       ],
-      "heat": 159643.5,
-      "change": 1.204,
+      "heat": 153820.0,
+      "change": 0.9778,
       "tag": "3家涨停",
-      "score": 42.5
+      "score": 41.1
     },
     {
       "name": "白酒",
       "type": "industry",
-      "score_raw": 129039.7461,
+      "score_raw": 127093.8178,
       "sources": [
         {
           "source": "同花顺",
           "rank": 6
         }
       ],
-      "heat": 129035.5,
-      "change": -1.5078,
+      "heat": 127089.5,
+      "change": -1.3644,
       "tag": "连续477天上榜",
-      "score": 34.3
+      "score": 33.9
     },
     {
-      "name": "电池",
+      "name": "工业金属",
       "type": "industry",
-      "score_raw": 109503.8647,
+      "score_raw": 110255.01925,
       "sources": [
         {
           "source": "同花顺",
           "rank": 7
         }
       ],
-      "heat": 109499.5,
-      "change": -1.2706,
+      "heat": 110250.5,
+      "change": -0.9615,
       "tag": "1家涨停",
-      "score": 29.1
+      "score": 29.4
     },
     {
-      "name": "工业金属",
+      "name": "电池",
       "type": "industry",
-      "score_raw": 108047.13575,
+      "score_raw": 108472.77995,
       "sources": [
         {
           "source": "同花顺",
           "rank": 8
         }
       ],
-      "heat": 108042.5,
-      "change": -0.7285,
-      "tag": "5天5次上榜",
-      "score": 28.7
+      "heat": 108468.5,
+      "change": -1.4401,
+      "tag": "1家涨停",
+      "score": 28.9
     },
     {
       "name": "通信设备",
       "type": "industry",
-      "score_raw": 91887.0426,
+      "score_raw": 93913.96165,
       "sources": [
         {
           "source": "同花顺",
           "rank": 9
         }
       ],
-      "heat": 91881.5,
-      "change": 1.0852,
+      "heat": 93908.5,
+      "change": 0.9233,
       "tag": "3家涨停",
-      "score": 24.4
+      "score": 25.1
     },
     {
-      "name": "牙科医疗",
+      "name": "稀土永磁",
       "type": "concept",
-      "score_raw": 87778.75675,
+      "score_raw": 88169.1925,
       "sources": [
         {
           "source": "同花顺",
           "rank": 5
         }
       ],
-      "heat": 87772.0,
-      "change": 3.5135,
-      "tag": "4家涨停",
-      "score": 23.4
-    },
-    {
-      "name": "光学光电子",
-      "type": "industry",
-      "score_raw": 87992.2976,
-      "sources": [
-        {
-          "source": "同花顺",
-          "rank": 10
-        }
-      ],
-      "heat": 87988.0,
-      "change": -1.4048,
-      "tag": "连续23天上榜",
-      "score": 23.4
+      "heat": 88163.5,
+      "change": 1.385,
+      "tag": "3家涨停",
+      "score": 23.5
     },
     {
       "name": "算力租赁",
       "type": "concept",
-      "score_raw": 87448.98435,
+      "score_raw": 85703.42865,
       "sources": [
         {
           "source": "同花顺",
           "rank": 6
         }
       ],
-      "heat": 87443.5,
-      "change": 0.9687,
+      "heat": 85698.0,
+      "change": 0.8573,
       "tag": "4家涨停",
-      "score": 23.3
-    },
-    {
-      "name": "稀土永磁",
-      "type": "concept",
-      "score_raw": 85409.79125,
-      "sources": [
-        {
-          "source": "同花顺",
-          "rank": 7
-        }
-      ],
-      "heat": 85404.0,
-      "change": 1.5825,
-      "tag": "3家涨停",
-      "score": 22.7
+      "score": 22.9
     },
     {
       "name": "稀土",
       "type": "industry",
-      "score_raw": 83795.1917,
+      "score_raw": 85607.38445,
+      "sources": [
+        {
+          "source": "同花顺",
+          "rank": 10
+        }
+      ],
+      "heat": 85600.0,
+      "change": 4.7689,
+      "tag": "5天3次上榜",
+      "score": 22.8
+    },
+    {
+      "name": "光学光电子",
+      "type": "industry",
+      "score_raw": 84669.73265,
       "sources": [
         {
           "source": "同花顺",
           "rank": 11
         }
       ],
-      "heat": 83787.5,
-      "change": 5.3834,
-      "tag": "5天3次上榜",
-      "score": 22.3
+      "heat": 84665.5,
+      "change": -1.5347,
+      "tag": "连续23天上榜",
+      "score": 22.6
+    },
+    {
+      "name": "牙科医疗",
+      "type": "concept",
+      "score_raw": 76876.1785,
+      "sources": [
+        {
+          "source": "同花顺",
+          "rank": 7
+        }
+      ],
+      "heat": 76869.5,
+      "change": 3.357,
+      "tag": "4家涨停",
+      "score": 20.5
     },
     {
       "name": "银行",
       "type": "industry",
-      "score_raw": 72770.446,
+      "score_raw": 74038.91225,
       "sources": [
         {
           "source": "同花顺",
           "rank": 12
         }
       ],
-      "heat": 72766.5,
-      "change": -2.108,
+      "heat": 74035.0,
+      "change": -2.1755,
       "tag": "连续866天上榜",
-      "score": 19.4
+      "score": 19.8
     },
     {
       "name": "铜",
       "type": "industry",
-      "score_raw": 70746.21575,
+      "score_raw": 71861.07045,
       "sources": [
         {
           "source": "同花顺",
           "rank": 13
         }
       ],
-      "heat": 70740.5,
-      "change": 1.4315,
+      "heat": 71855.5,
+      "change": 1.1409,
       "tag": "5天3次上榜",
-      "score": 18.8
+      "score": 19.2
     }
   ],
   "hot_industries": [
@@ -3343,8 +3343,8 @@
       "code": "881121",
       "name": "半导体",
       "type": "industry",
-      "heat": "375912.5",
-      "change": 1.724,
+      "heat": "374700.5",
+      "change": 1.5256,
       "rank_change": 0,
       "tag": "2家涨停",
       "hot_tag": "连续866天上榜"
@@ -3354,8 +3354,8 @@
       "code": "881145",
       "name": "电力",
       "type": "industry",
-      "heat": "352476.5",
-      "change": -3.1929,
+      "heat": "356228.0",
+      "change": -3.2577,
       "rank_change": 0,
       "tag": "1家涨停",
       "hot_tag": "连续107天上榜"
@@ -3365,8 +3365,8 @@
       "code": "881157",
       "name": "证券",
       "type": "industry",
-      "heat": "256728.5",
-      "change": -2.6057,
+      "heat": "255940.5",
+      "change": -2.836,
       "rank_change": 0,
       "tag": null,
       "hot_tag": "连续866天上榜"
@@ -3376,8 +3376,8 @@
       "code": "881170",
       "name": "小金属",
       "type": "industry",
-      "heat": "228970.5",
-      "change": 0.6713,
+      "heat": "224289.0",
+      "change": 0.3577,
       "rank_change": 0,
       "tag": "3家涨停",
       "hot_tag": "10天9次上榜"
@@ -3387,8 +3387,8 @@
       "code": "881270",
       "name": "元件",
       "type": "industry",
-      "heat": "159643.5",
-      "change": 1.204,
+      "heat": "153820.0",
+      "change": 0.9778,
       "rank_change": 0,
       "tag": "3家涨停",
       "hot_tag": "连续53天上榜"
@@ -3398,55 +3398,55 @@
       "code": "881273",
       "name": "白酒",
       "type": "industry",
-      "heat": "129035.5",
-      "change": -1.5078,
+      "heat": "127089.5",
+      "change": -1.3644,
       "rank_change": 0,
       "tag": null,
       "hot_tag": "连续477天上榜"
     },
     {
       "rank": 7,
-      "code": "881281",
-      "name": "电池",
-      "type": "industry",
-      "heat": "109499.5",
-      "change": -1.2706,
-      "rank_change": 0,
-      "tag": "1家涨停",
-      "hot_tag": "连续72天上榜"
-    },
-    {
-      "rank": 8,
       "code": "881168",
       "name": "工业金属",
       "type": "industry",
-      "heat": "108042.5",
-      "change": -0.7285,
-      "rank_change": 0,
-      "tag": null,
+      "heat": "110250.5",
+      "change": -0.9615,
+      "rank_change": 1,
+      "tag": "1家涨停",
       "hot_tag": "5天5次上榜"
+    },
+    {
+      "rank": 8,
+      "code": "881281",
+      "name": "电池",
+      "type": "industry",
+      "heat": "108468.5",
+      "change": -1.4401,
+      "rank_change": -1,
+      "tag": "1家涨停",
+      "hot_tag": "连续72天上榜"
     },
     {
       "rank": 9,
       "code": "881129",
       "name": "通信设备",
       "type": "industry",
-      "heat": "91881.5",
-      "change": 1.0852,
-      "rank_change": 1,
+      "heat": "93908.5",
+      "change": 0.9233,
+      "rank_change": 0,
       "tag": "3家涨停",
       "hot_tag": "连续90天上榜"
     },
     {
       "rank": 10,
-      "code": "881122",
-      "name": "光学光电子",
+      "code": "884215",
+      "name": "稀土",
       "type": "industry",
-      "heat": "87988.0",
-      "change": -1.4048,
-      "rank_change": -1,
+      "heat": "85600.0",
+      "change": 4.7689,
+      "rank_change": 1,
       "tag": null,
-      "hot_tag": "连续23天上榜"
+      "hot_tag": "5天3次上榜"
     }
   ],
   "sector_sentiment": [
@@ -4886,35 +4886,35 @@
         "source": "财联社",
         "title": "美联储按兵不动但释放鹰派信号 年内利率变化预期由降息变加息",
         "brief": "①美联储宣布将联邦基金利率目标区间维持在3.5%至3.75%之间不变，符合市场预期； ②点阵图显示，美联储官员们当下整体认为年内会“加息一次”，原来则是“降息一次”。",
-        "heat": 262301
+        "heat": 263856
       },
       {
         "rank": 2,
         "source": "财联社",
         "title": "【早报】美联储转鹰；美股三大指数集体收跌；黄金、白银下跌；葡萄牙队爆冷战平",
         "brief": "①沪深交易所发布主动管理ETF业务指引②工信部：深入实施“人工智能＋制造”专项行动③上交所发布人工智能大模型企业适用科创板第五套上市标准④美联储转鹰⑤多只电子布概念股公告相关业务情况。",
-        "heat": 194403
+        "heat": 195580
       },
       {
         "rank": 3,
         "source": "财联社",
         "title": "一图解读美联储6月决议：如期“按兵不动”，沃什明言重大改革将至！",
         "brief": "①美联储FOMC周四凌晨如期宣布“按兵不动”，将联邦基金利率目标区间维持在3.5%至3.75%之间； ②新任美联储主席沃什首次发布会释放了强烈的改革信号。",
-        "heat": 245619
+        "heat": 247051
       },
       {
         "rank": 4,
         "source": "财联社",
         "title": "美股收盘：沃什首秀吓坏市场！三大指数尾盘跳水",
         "brief": "①市场完全定价美联储10月前加息，美股尾盘跳水，SpaceX迎上市后首跌； ②苹果库克：涨价已无法避免； ③AI电力“卖铲人”康明斯、半导体设备巨头应用材料、NAND巨头西部数据和希捷科技均再创新高。",
-        "heat": 312129
+        "heat": 314177
       },
       {
         "rank": 5,
         "source": "财联社",
         "title": "美联储新主席沃什释放强烈信号：美联储的天，要变了",
         "brief": "①新任美联储主席沃什首次发布会释放强烈改革信号：决议声明大幅压缩、取消前瞻性指引，并宣布审查沟通机制、资产负债表、通胀框架等核心政策： ②尽管最新点阵图暗示年内或加息一次，沃什仍提及降息讨论，显示“沃什时代”的美联储将更…",
-        "heat": 253819
+        "heat": 255345
       }
     ],
     "influencer": {
@@ -5175,7 +5175,7 @@
       {
         "name": "通信设备",
         "key": "通信设备",
-        "score": 6.1,
+        "score": 6.2,
         "evidence": [
           "热榜板块",
           "板块情绪/成交",
@@ -5186,7 +5186,7 @@
       {
         "name": "电力",
         "key": "电力",
-        "score": 5.6,
+        "score": 5.7,
         "evidence": [
           "热榜板块",
           "板块情绪/成交",
@@ -5206,7 +5206,7 @@
       {
         "name": "培育钻石",
         "key": "培育钻石",
-        "score": 4.8,
+        "score": 4.9,
         "evidence": [
           "热榜板块",
           "板块情绪/成交",
@@ -5596,6 +5596,63 @@
       "pullback20": 12.6
     },
     {
+      "code": "601138.SH",
+      "name": "工业富联",
+      "industry": "通信设备",
+      "close": 72.64,
+      "support": 68.2,
+      "resistance": 80.4,
+      "j": 39.7,
+      "boll_mid": 72.69,
+      "boll_upper": 80.4,
+      "boll_lower": 64.98,
+      "boll_pos": -0.1,
+      "signals": "趋势仍在、回踩均线、BOLL中轨回踩、KDJ低位/拐头、缩量回踩",
+      "advice": "BOLL中轨回踩质量较好，次日看中轨附近承接；不跌破支撑且放量转强再观察，跌破中轨需降级。",
+      "mainline": {
+        "score": 5.3,
+        "line": "通信设备",
+        "line_key": "通信设备",
+        "industry_score": 6.2,
+        "hot_score": 74.8,
+        "hot_days": 6,
+        "ladder_level": 0,
+        "evidence": [
+          "主线通信设备",
+          "热榜前排"
+        ]
+      },
+      "factor_snapshot": {
+        "liquidity_score": 9.5,
+        "momentum_score": 7.6,
+        "pullback_score": 7.8,
+        "kdj_score": 6.0,
+        "macd_score": 4.5,
+        "boll_score": 7.0,
+        "volume_score": 7.0,
+        "technical_score": 6.1,
+        "mainline_score": 5.3,
+        "factor_score": 7.7,
+        "amount20_yi": 178.59,
+        "amihud20": 0.02,
+        "ret5": 2.12,
+        "ret20": 6.59,
+        "ret60": 43.96,
+        "pullback20": 16.95,
+        "price_rank60": 67.3
+      },
+      "liquidity_score": 9.5,
+      "momentum_score": 7.6,
+      "pullback_score": 7.8,
+      "mainline_score": 5.3,
+      "factor_score": 7.7,
+      "amount20_yi": 178.59,
+      "amihud20": 0.02,
+      "ret20": 6.59,
+      "ret60": 43.96,
+      "pullback20": 16.95
+    },
+    {
       "code": "002156.SZ",
       "name": "通富微电",
       "industry": "半导体",
@@ -5650,63 +5707,6 @@
       "ret20": 7.93,
       "ret60": 46.29,
       "pullback20": 16.87
-    },
-    {
-      "code": "601138.SH",
-      "name": "工业富联",
-      "industry": "通信设备",
-      "close": 72.64,
-      "support": 68.2,
-      "resistance": 80.4,
-      "j": 39.7,
-      "boll_mid": 72.69,
-      "boll_upper": 80.4,
-      "boll_lower": 64.98,
-      "boll_pos": -0.1,
-      "signals": "趋势仍在、回踩均线、BOLL中轨回踩、KDJ低位/拐头、缩量回踩",
-      "advice": "BOLL中轨回踩质量较好，次日看中轨附近承接；不跌破支撑且放量转强再观察，跌破中轨需降级。",
-      "mainline": {
-        "score": 5.2,
-        "line": "通信设备",
-        "line_key": "通信设备",
-        "industry_score": 6.1,
-        "hot_score": 74.7,
-        "hot_days": 6,
-        "ladder_level": 0,
-        "evidence": [
-          "主线通信设备",
-          "热榜前排"
-        ]
-      },
-      "factor_snapshot": {
-        "liquidity_score": 9.5,
-        "momentum_score": 7.6,
-        "pullback_score": 7.8,
-        "kdj_score": 6.0,
-        "macd_score": 4.5,
-        "boll_score": 7.0,
-        "volume_score": 7.0,
-        "technical_score": 6.1,
-        "mainline_score": 5.2,
-        "factor_score": 7.7,
-        "amount20_yi": 178.59,
-        "amihud20": 0.02,
-        "ret5": 2.12,
-        "ret20": 6.59,
-        "ret60": 43.96,
-        "pullback20": 16.95,
-        "price_rank60": 67.3
-      },
-      "liquidity_score": 9.5,
-      "momentum_score": 7.6,
-      "pullback_score": 7.8,
-      "mainline_score": 5.2,
-      "factor_score": 7.7,
-      "amount20_yi": 178.59,
-      "amihud20": 0.02,
-      "ret20": 6.59,
-      "ret60": 43.96,
-      "pullback20": 16.95
     },
     {
       "code": "002134.SZ",
@@ -6631,11 +6631,11 @@
       "signals": "趋势仍在、回踩均线、BOLL中轨回踩、KDJ低位/拐头、缩量回踩",
       "advice": "BOLL中轨回踩质量较好，次日看中轨附近承接；不跌破支撑且放量转强再观察，跌破中轨需降级。",
       "mainline": {
-        "score": 5.2,
+        "score": 5.3,
         "line": "通信设备",
         "line_key": "通信设备",
-        "industry_score": 6.1,
-        "hot_score": 74.7,
+        "industry_score": 6.2,
+        "hot_score": 74.8,
         "hot_days": 6,
         "ladder_level": 0,
         "evidence": [
@@ -6652,7 +6652,7 @@
         "boll_score": 7.0,
         "volume_score": 7.0,
         "technical_score": 6.1,
-        "mainline_score": 5.2,
+        "mainline_score": 5.3,
         "factor_score": 7.7,
         "amount20_yi": 178.59,
         "amihud20": 0.02,
@@ -6665,7 +6665,7 @@
       "liquidity_score": 9.5,
       "momentum_score": 7.6,
       "pullback_score": 7.8,
-      "mainline_score": 5.2,
+      "mainline_score": 5.3,
       "factor_score": 7.7,
       "amount20_yi": 178.59,
       "amihud20": 0.02,
@@ -6900,7 +6900,7 @@
               "line": "元器件",
               "line_key": "元器件",
               "industry_score": 10,
-              "hot_score": 89.1,
+              "hot_score": 89.2,
               "hot_days": 6,
               "ladder_level": 0,
               "evidence": [
@@ -7068,7 +7068,7 @@
               "line": "元器件",
               "line_key": "元器件",
               "industry_score": 10,
-              "hot_score": 89.1,
+              "hot_score": 89.2,
               "hot_days": 6,
               "ladder_level": 0,
               "evidence": [
@@ -7220,7 +7220,7 @@
               "line": "元器件",
               "line_key": "元器件",
               "industry_score": 10,
-              "hot_score": 89.1,
+              "hot_score": 89.2,
               "hot_days": 6,
               "ladder_level": 0,
               "evidence": [
@@ -7340,7 +7340,7 @@
         "empty_reason": "暂无沪深股票出现短随机指标下20后重新收回的短线信号。"
       }
     ],
-    "summary": "按策略买点统一选股，本次触发3/10类买点、展示候选3张、去重个股1只；选股池为沪深全市场，排除北交所、ST、上市未满365天；评分重置为买点主轴、市场与主线定上限、六维质量做校正：大盘、活跃市值、消息面、主线、KDJ、MACD、BOLL、量能、动量、流动性、回踩质量和六维风险共同决定最终分；展示7.5分及以上候选，8分及以上才给仓位规划；市场环境7.1分，指数7.5、活跃市值4.1、消息面4.5、主线清晰度10.0；距支撑约1.0%且指数翻红，强主线买点可适度进攻；风险偏中，低于8分只观察不规划仓位。 本次达到仓位规划门槛0只；多买点共振标记重复推荐并提高评分，本次标记1只；近一年同花顺热榜上榜超过10天标记热榜，本次标记0只。 盘中跟踪：延续观察0只、新选0只、剔除0只；跟踪池只纳入8分及以上且有仓位规划的候选。",
+    "summary": "选股结果：触发3/10类买点，候选3张，去重1只，8分以上0只；重复推荐1只，热榜0只。 市场：市场环境7.1分，指数7.5、活跃市值4.1、消息面4.5、主线清晰度10.0；距支撑约1.0%且指数翻红，强主线买点可适度进攻；风险偏中，低于8分只观察不规划仓位。 盘中跟踪：延续观察0只、新选0只、剔除0只；跟踪池只纳入8分及以上且有仓位规划的候选。",
     "market_context": {
       "environment_score": 7.1,
       "market_score": 5.9,
@@ -7370,7 +7370,7 @@
     "items": [
       {
         "trade_date": "2026-06-17",
-        "generated_at": "2026-06-18 11:09:02",
+        "generated_at": "2026-06-18 11:12:07",
         "display_threshold": 7.5,
         "position_threshold": 8.0,
         "total_picks": 3,
@@ -7553,7 +7553,7 @@
     }
   },
   "monitor_followup": {
-    "updated_at": "2026-06-18 11:09:02",
+    "updated_at": "2026-06-18 11:12:07",
     "update_stage": "manual",
     "latest_trade_date": "2026-06-17",
     "summary": "盘中跟踪：延续观察0只、新选0只、剔除0只；跟踪池只纳入8分及以上且有仓位规划的候选。",
@@ -7562,11 +7562,11 @@
     "labels_by_code": {}
   },
   "sim_portfolio": {
-    "updated_at": "2026-06-18 11:09:02",
+    "updated_at": "2026-06-18 11:12:07",
     "latest_trade_date": "2026-06-17",
     "update_stage": "manual",
     "update_stage_title": "手动更新",
-    "summary_text": "100万模拟舱按8分以上买点择强择位运行；本次为手动更新，允许按当前信号执行模拟舱操作；当前持有5只，仓位34.1%（目标上限45.0%）；本次记录买入0笔、卖出2笔、做T0笔；当前无新触发票，模拟舱从仍守住结构的高分延续候选中择强试仓；并未把所有候选都买入，只优先主线内高分、位置不追高且止损线清晰的股票。",
+    "summary_text": "100万模拟舱按8分以上买点择强择位运行；本次为手动更新，允许按当前信号执行模拟舱操作；本阶段已执行过模拟舱操作，本次只刷新持仓估值和分析；当前持有5只，仓位34.1%（目标上限45.0%）；本次记录买入0笔、卖出2笔、做T0笔；当前无新触发票，模拟舱从仍守住结构的高分延续候选中择强试仓；并未把所有候选都买入，只优先主线内高分、位置不追高且止损线清晰的股票。",
     "initial_capital": 1000000.0,
     "cash": 677571.0,
     "market_value": 350540.0,
@@ -13050,7 +13050,7 @@
               "support": 101.85,
               "resistance": 111.41,
               "purity_score": 4.3,
-              "line_score": 5.6,
+              "line_score": 5.7,
               "research_score": 6.2,
               "match_reasons": [
                 "通信设备"
@@ -13081,7 +13081,7 @@
               "support": 188.79,
               "resistance": 227.04,
               "purity_score": 4.3,
-              "line_score": 5.6,
+              "line_score": 5.7,
               "research_score": 6.2,
               "match_reasons": [
                 "通信设备"
@@ -13112,7 +13112,7 @@
               "support": 406.74,
               "resistance": 440.0,
               "purity_score": 4.3,
-              "line_score": 5.6,
+              "line_score": 5.7,
               "research_score": 6.2,
               "match_reasons": [
                 "通信设备"
@@ -13173,7 +13173,7 @@
               "support": 195.97,
               "resistance": 272.4,
               "purity_score": 4.3,
-              "line_score": 5.6,
+              "line_score": 5.7,
               "research_score": 6.1,
               "match_reasons": [
                 "通信设备"
@@ -13208,7 +13208,7 @@
               "support": 324.46,
               "resistance": 404.98,
               "purity_score": 4.3,
-              "line_score": 5.6,
+              "line_score": 5.7,
               "research_score": 6.1,
               "match_reasons": [
                 "通信设备"
@@ -13224,6 +13224,67 @@
               "technical_score": 5.6
             },
             {
+              "code": "600498.SH",
+              "name": "烽火通信",
+              "industry": "通信设备",
+              "market": "主板",
+              "list_date": "2001-08-23",
+              "score": 6.1,
+              "sources": [],
+              "price": 76.68,
+              "change": 3.6216,
+              "ths_hot": {
+                "hot_days": 6,
+                "best_rank": 15,
+                "last_hot_date": "2026-06-18"
+              },
+              "ladder_level": 0,
+              "sub_industry": "上游配套",
+              "support": 62.09,
+              "resistance": 79.7,
+              "purity_score": 4.3,
+              "line_score": 5.7,
+              "research_score": 6.1,
+              "match_reasons": [
+                "通信设备"
+              ],
+              "operation_advice": "先等放量转强或回踩确认，弱于支撑不参与。",
+              "pct_chg": 3.62,
+              "amount_yi": 118.15,
+              "amount20_yi": 73.31,
+              "ths_hot_days": 6,
+              "close": 76.68,
+              "momentum_score": 8.7,
+              "liquidity_score": 9.5,
+              "technical_score": 5.3
+            }
+          ],
+          "capital_summary": {
+            "sample_count": 3,
+            "up_count": 3,
+            "up_ratio": 100.0,
+            "avg_pct": 1.78,
+            "amount_yi": 263.86,
+            "amount20_yi": 61.8,
+            "limit_count": 0,
+            "hot_count": 0,
+            "strong_count": 0,
+            "leaders": [
+              "烽火通信",
+              "太辰光",
+              "光库科技"
+            ],
+            "rotation_state": "资金集中度较高，前排有继续扩散基础",
+            "lhb_status": "本地暂未接入结构化数据"
+          }
+        },
+        {
+          "name": "中游制造",
+          "keywords": [
+            "通信设备"
+          ],
+          "picks": [
+            {
               "code": "301205.SZ",
               "name": "联特科技",
               "industry": "通信设备",
@@ -13235,11 +13296,11 @@
               "change": -0.2404,
               "ths_hot": {},
               "ladder_level": 0,
-              "sub_industry": "上游配套",
+              "sub_industry": "中游制造",
               "support": 330.64,
               "resistance": 374.9,
               "purity_score": 4.3,
-              "line_score": 5.6,
+              "line_score": 5.7,
               "research_score": 6.1,
               "match_reasons": [
                 "通信设备"
@@ -13253,67 +13314,41 @@
               "momentum_score": 8.3,
               "liquidity_score": 9.5,
               "technical_score": 6.0
-            }
-          ],
-          "capital_summary": {
-            "sample_count": 3,
-            "up_count": 2,
-            "up_ratio": 66.7,
-            "avg_pct": 0.49,
-            "amount_yi": 172.04,
-            "amount20_yi": 48.97,
-            "limit_count": 0,
-            "hot_count": 0,
-            "strong_count": 0,
-            "leaders": [
-              "太辰光",
-              "光库科技",
-              "联特科技"
-            ],
-            "rotation_state": "轮动保持活跃，优先看前排是否继续放量",
-            "lhb_status": "本地暂未接入结构化数据"
-          }
-        },
-        {
-          "name": "中游制造",
-          "keywords": [
-            "通信设备"
-          ],
-          "picks": [
+            },
             {
-              "code": "600498.SH",
-              "name": "烽火通信",
+              "code": "601869.SH",
+              "name": "长飞光纤",
               "industry": "通信设备",
               "market": "主板",
-              "list_date": "2001-08-23",
-              "score": 6.0,
+              "list_date": "2018-07-20",
+              "score": 6.1,
               "sources": [],
-              "price": 76.68,
-              "change": 3.6216,
+              "price": 460.5,
+              "change": -0.7757,
               "ths_hot": {
-                "hot_days": 6,
-                "best_rank": 15,
-                "last_hot_date": "2026-06-18"
+                "hot_days": 3,
+                "best_rank": 52,
+                "last_hot_date": "2026-06-16"
               },
               "ladder_level": 0,
               "sub_industry": "中游制造",
-              "support": 62.09,
-              "resistance": 79.7,
+              "support": 452.88,
+              "resistance": 495.0,
               "purity_score": 4.3,
-              "line_score": 5.6,
-              "research_score": 6.0,
+              "line_score": 5.7,
+              "research_score": 6.1,
               "match_reasons": [
                 "通信设备"
               ],
-              "operation_advice": "先等放量转强或回踩确认，弱于支撑不参与。",
-              "pct_chg": 3.62,
-              "amount_yi": 118.15,
-              "amount20_yi": 73.31,
-              "ths_hot_days": 6,
-              "close": 76.68,
-              "momentum_score": 8.7,
+              "operation_advice": "趋势仍在但强度未到第一梯队，回踩支撑不破可观察。",
+              "pct_chg": -0.78,
+              "amount_yi": 60.95,
+              "amount20_yi": 67.78,
+              "ths_hot_days": 3,
+              "close": 460.5,
+              "momentum_score": 7.8,
               "liquidity_score": 9.5,
-              "technical_score": 5.3
+              "technical_score": 6.6
             },
             {
               "code": "600105.SH",
@@ -13335,7 +13370,7 @@
               "support": 55.1,
               "resistance": 64.69,
               "purity_score": 4.3,
-              "line_score": 5.6,
+              "line_score": 5.7,
               "research_score": 6.0,
               "match_reasons": [
                 "通信设备"
@@ -13349,7 +13384,33 @@
               "momentum_score": 8.3,
               "liquidity_score": 9.5,
               "technical_score": 5.7
-            },
+            }
+          ],
+          "capital_summary": {
+            "sample_count": 3,
+            "up_count": 1,
+            "up_ratio": 33.3,
+            "avg_pct": 2.05,
+            "amount_yi": 200.73,
+            "amount20_yi": 60.86,
+            "limit_count": 0,
+            "hot_count": 0,
+            "strong_count": 0,
+            "leaders": [
+              "长飞光纤",
+              "联特科技",
+              "永鼎股份"
+            ],
+            "rotation_state": "轮动保持活跃，优先看前排是否继续放量",
+            "lhb_status": "本地暂未接入结构化数据"
+          }
+        },
+        {
+          "name": "下游应用",
+          "keywords": [
+            "通信设备"
+          ],
+          "picks": [
             {
               "code": "300308.SZ",
               "name": "中际旭创",
@@ -13366,11 +13427,11 @@
                 "last_hot_date": "2026-06-18"
               },
               "ladder_level": 0,
-              "sub_industry": "中游制造",
+              "sub_industry": "下游应用",
               "support": 1198.42,
               "resistance": 1315.15,
               "purity_score": 4.3,
-              "line_score": 5.6,
+              "line_score": 5.7,
               "research_score": 6.0,
               "match_reasons": [
                 "通信设备"
@@ -13384,33 +13445,7 @@
               "momentum_score": 8.2,
               "liquidity_score": 9.5,
               "technical_score": 5.7
-            }
-          ],
-          "capital_summary": {
-            "sample_count": 3,
-            "up_count": 3,
-            "up_ratio": 100.0,
-            "avg_pct": 4.35,
-            "amount_yi": 504.32,
-            "amount20_yi": 163.05,
-            "limit_count": 0,
-            "hot_count": 0,
-            "strong_count": 0,
-            "leaders": [
-              "中际旭创",
-              "烽火通信",
-              "永鼎股份"
-            ],
-            "rotation_state": "资金集中度较高，前排有继续扩散基础",
-            "lhb_status": "本地暂未接入结构化数据"
-          }
-        },
-        {
-          "name": "下游应用",
-          "keywords": [
-            "通信设备"
-          ],
-          "picks": [
+            },
             {
               "code": "600522.SH",
               "name": "中天科技",
@@ -13431,7 +13466,7 @@
               "support": 50.46,
               "resistance": 56.16,
               "purity_score": 4.3,
-              "line_score": 5.6,
+              "line_score": 5.7,
               "research_score": 6.0,
               "match_reasons": [
                 "通信设备"
@@ -13447,47 +13482,12 @@
               "technical_score": 6.0
             },
             {
-              "code": "601869.SH",
-              "name": "长飞光纤",
-              "industry": "通信设备",
-              "market": "主板",
-              "list_date": "2018-07-20",
-              "score": 6.0,
-              "sources": [],
-              "price": 460.5,
-              "change": -0.7757,
-              "ths_hot": {
-                "hot_days": 3,
-                "best_rank": 52,
-                "last_hot_date": "2026-06-16"
-              },
-              "ladder_level": 0,
-              "sub_industry": "下游应用",
-              "support": 452.88,
-              "resistance": 495.0,
-              "purity_score": 4.3,
-              "line_score": 5.6,
-              "research_score": 6.0,
-              "match_reasons": [
-                "通信设备"
-              ],
-              "operation_advice": "趋势仍在但强度未到第一梯队，回踩支撑不破可观察。",
-              "pct_chg": -0.78,
-              "amount_yi": 60.95,
-              "amount20_yi": 67.78,
-              "ths_hot_days": 3,
-              "close": 460.5,
-              "momentum_score": 7.8,
-              "liquidity_score": 9.5,
-              "technical_score": 6.6
-            },
-            {
               "code": "002491.SZ",
               "name": "通鼎互联",
               "industry": "通信设备",
               "market": "主板",
               "list_date": "2010-10-21",
-              "score": 5.9,
+              "score": 6.0,
               "sources": [],
               "price": 28.71,
               "change": 10.0,
@@ -13501,8 +13501,8 @@
               "support": 25.34,
               "resistance": 28.71,
               "purity_score": 4.3,
-              "line_score": 5.6,
-              "research_score": 5.9,
+              "line_score": 5.7,
+              "research_score": 6.0,
               "match_reasons": [
                 "通信设备"
               ],
@@ -13519,17 +13519,17 @@
           ],
           "capital_summary": {
             "sample_count": 3,
-            "up_count": 2,
-            "up_ratio": 66.7,
-            "avg_pct": 3.54,
-            "amount_yi": 282.17,
-            "amount20_yi": 90.58,
+            "up_count": 3,
+            "up_ratio": 100.0,
+            "avg_pct": 4.55,
+            "amount_yi": 493.94,
+            "amount20_yi": 179.94,
             "limit_count": 0,
             "hot_count": 0,
             "strong_count": 0,
             "leaders": [
+              "中际旭创",
               "中天科技",
-              "长飞光纤",
               "通鼎互联"
             ],
             "rotation_state": "资金集中度较高，前排有继续扩散基础",
@@ -13559,7 +13559,7 @@
           "support": 101.85,
           "resistance": 111.41,
           "purity_score": 4.3,
-          "line_score": 5.6,
+          "line_score": 5.7,
           "research_score": 6.2,
           "match_reasons": [
             "通信设备"
@@ -13590,7 +13590,7 @@
           "support": 188.79,
           "resistance": 227.04,
           "purity_score": 4.3,
-          "line_score": 5.6,
+          "line_score": 5.7,
           "research_score": 6.2,
           "match_reasons": [
             "通信设备"
@@ -13621,7 +13621,7 @@
           "support": 406.74,
           "resistance": 440.0,
           "purity_score": 4.3,
-          "line_score": 5.6,
+          "line_score": 5.7,
           "research_score": 6.2,
           "match_reasons": [
             "通信设备"
@@ -13656,7 +13656,7 @@
           "support": 195.97,
           "resistance": 272.4,
           "purity_score": 4.3,
-          "line_score": 5.6,
+          "line_score": 5.7,
           "research_score": 6.1,
           "match_reasons": [
             "通信设备"
@@ -13691,7 +13691,7 @@
           "support": 324.46,
           "resistance": 404.98,
           "purity_score": 4.3,
-          "line_score": 5.6,
+          "line_score": 5.7,
           "research_score": 6.1,
           "match_reasons": [
             "通信设备"
@@ -13707,39 +13707,43 @@
           "technical_score": 5.6
         },
         {
-          "code": "301205.SZ",
-          "name": "联特科技",
+          "code": "600498.SH",
+          "name": "烽火通信",
           "industry": "通信设备",
-          "market": "创业板",
-          "list_date": "2022-09-13",
+          "market": "主板",
+          "list_date": "2001-08-23",
           "score": 6.1,
           "sources": [],
-          "price": 336.19,
-          "change": -0.2404,
-          "ths_hot": {},
+          "price": 76.68,
+          "change": 3.6216,
+          "ths_hot": {
+            "hot_days": 6,
+            "best_rank": 15,
+            "last_hot_date": "2026-06-18"
+          },
           "ladder_level": 0,
           "sub_industry": "上游配套",
-          "support": 330.64,
-          "resistance": 374.9,
+          "support": 62.09,
+          "resistance": 79.7,
           "purity_score": 4.3,
-          "line_score": 5.6,
+          "line_score": 5.7,
           "research_score": 6.1,
           "match_reasons": [
             "通信设备"
           ],
-          "operation_advice": "趋势仍在但强度未到第一梯队，回踩支撑不破可观察。",
-          "pct_chg": -0.24,
-          "amount_yi": 26.33,
-          "amount20_yi": 34.82,
-          "ths_hot_days": 0,
-          "close": 336.19,
-          "momentum_score": 8.3,
+          "operation_advice": "先等放量转强或回踩确认，弱于支撑不参与。",
+          "pct_chg": 3.62,
+          "amount_yi": 118.15,
+          "amount20_yi": 73.31,
+          "ths_hot_days": 6,
+          "close": 76.68,
+          "momentum_score": 8.7,
           "liquidity_score": 9.5,
-          "technical_score": 6.0
+          "technical_score": 5.3
         }
       ],
       "evidence": "Medium",
-      "line_score": 5.6,
+      "line_score": 5.7,
       "recommendation": "储备观察",
       "candidate_count": 12,
       "risk": "仅有主题热度，缺少业绩和订单验证。",
