@@ -33,6 +33,7 @@ h3 { margin-bottom: 10px; font-size: 15px; }
 .scope-badge { color: #175cd3; background: #e8f1ff; border: 1px solid #b8cffb; }
 .data-scope { max-width: 900px; margin-bottom: 0; font-size: 13px; line-height: 1.5; }
 .primary-link { display: inline-flex; align-items: center; min-height: 38px; padding: 0 14px; border-radius: 6px; background: var(--text); color: #fff; text-decoration: none; font-weight: 700; white-space: nowrap; }
+.header-refresh-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; padding: 0 14px; border: 0; border-radius: 6px; background: var(--text); color: #fff; font-size: 14px; font-weight: 700; cursor: pointer; white-space: nowrap; }
 .dashboard-shell { width: min(1480px, 100%); display: grid; grid-template-columns: 168px minmax(0, 1fr); gap: 18px; margin: 0 auto; padding: 24px 28px 44px; }
 .side-tabs { position: sticky; top: 14px; align-self: start; display: grid; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; box-shadow: var(--shadow); }
 .side-tabs button, .side-tabs a { display: flex; min-height: 40px; align-items: center; padding: 0 12px; border: 1px solid transparent; border-radius: 6px; background: transparent; color: #344054; text-align: left; text-decoration: none; font-size: 14px; font-weight: 800; cursor: pointer; }
@@ -331,6 +332,34 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
   .summary-line { grid-template-columns: 1fr; gap: 2px; }
   .six-row { grid-template-columns: 1fr; gap: 2px; }
 }
+
+.local-control { display: flex; align-items: center; gap: 10px; margin: 10px 0 6px; }
+.local-control button { min-height: 34px; padding: 0 12px; border: 0; border-radius: 6px; background: #1f6feb; color: #fff; font-weight: 800; cursor: pointer; }
+.local-control button:disabled { background: #98a2b3; cursor: default; }
+.local-control small { color: var(--muted); font-size: 12px; }
+.local-control.muted { color: #1d7f52; font-size: 12px; font-weight: 700; }
+.local-control button.added { background: #12805c; }
+.watch-mode-panel { margin-bottom: 14px; padding: 14px; border: 1px solid #d6e4ff; border-radius: 8px; background: #f8fbff; }
+.watch-mode-head { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-bottom: 10px; }
+.watch-mode-head b { font-size: 15px; }
+.watch-mode-head span { color: var(--muted); font-size: 12px; }
+.watch-mode-list { display: grid; grid-template-columns: repeat(2, minmax(280px, 1fr)); gap: 12px; }
+.watch-mode-card { padding: 12px; border: 1px solid #dbe5f0; border-radius: 8px; background: #fff; }
+.watch-mode-top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; margin-bottom: 8px; }
+.watch-mode-top b { display: block; margin-bottom: 3px; font-size: 16px; }
+.watch-mode-top span { color: var(--muted); font-size: 12px; }
+.watch-mode-price { text-align: right; }
+.watch-mode-price strong { display: block; font-size: 18px; }
+.watch-mode-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 8px; }
+.watch-mode-grid span { display: block; padding: 6px 8px; border-radius: 6px; background: #f8fafc; color: #344054; font-size: 12px; }
+.watch-mode-status { margin-bottom: 8px; color: #344054; font-size: 13px; line-height: 1.55; }
+.watch-mode-next { margin: 0; color: #475467; font-size: 12px; line-height: 1.6; }
+.watch-mode-empty { padding: 14px; border: 1px dashed #bfd2ff; border-radius: 8px; background: #fff; color: var(--muted); }
+.status-pill { display: inline-flex; min-height: 22px; align-items: center; padding: 0 8px; margin-right: 8px; border-radius: 999px; font-size: 12px; font-weight: 800; }
+.status-pill.ok { background: #e8fff3; color: #0f8a5f; }
+.status-pill.watch { background: #eef4ff; color: #175cd3; }
+.status-pill.warn { background: #fff5e8; color: #b54708; }
+.status-pill.danger { background: #fff1f3; color: #b42318; }
 </style>
 </head>
 <body>
@@ -345,6 +374,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
       </p>
       <p class="data-scope">日线模块基准为2026-06-18；新闻、热榜和集合竞价按2026-06-20刷新。</p>
     </div>
+    <button type="button" class="header-refresh-btn" onclick="window.location.reload()">刷新页面</button>
   </header>
 
   <div class="dashboard-shell">
@@ -1054,7 +1084,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000063.SZ&quot;, &quot;name&quot;: &quot;中兴通讯&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 37.89, &quot;confidence&quot;: 7.7, &quot;support&quot;: 37.84, &quot;resistance&quot;: 39.53, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;符合核心低吸结构：趋势内缩量回踩，优先看承接；主线有热度：通信设备；RPS81，相对强度较高；20/60日动量和均线斜率较好；人气热榜7天，资金参与结构更分散；多个买点共振：B1、B3、双线/BBI买点；投研推荐加分0.7：数据中心/AI服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;B1趋势回踩预反弹：趋势、流动性和动量合格，回踩均线/BBI/BOLL不破，缩量或3/4量，J值低位或拐头。&quot;, &quot;failure&quot;: &quot;跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破39.53；若回踩37.84附近，重点验证BOLL中轨支撑；若放量延续，可看突破确认力度；失效条件看跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000063.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B1趋势回踩预反弹：趋势、流动性和动量合格，回踩均线/BBI/BOLL不破，缩量或3/4量，J值低位或拐头。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1098,7 +1128,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260509 国家集成电路产业投资基金股份有限公司DE，变动比例0.71%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002156.SZ&quot;, &quot;name&quot;: &quot;通富微电&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 68.27, &quot;confidence&quot;: 7.5, &quot;support&quot;: 65.71, &quot;resistance&quot;: 74.7, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;符合核心低吸结构：趋势内缩量回踩，优先看承接；主线有热度：半导体；RPS90，相对强度较高；20/60日动量和均线斜率较好；人气热榜8天，资金参与结构更分散；多个买点共振：B1、B2；投研推荐加分0.8：NAND，环节角色：中游接力，板块轮动：中游接力确认，细分状态：轮动保持活跃，优先看前排是否继续放量&quot;, &quot;trigger&quot;: &quot;回踩支撑成立且不跌破关键价位，参考价 65.71 附近分批关注；盘中靠近支撑位时分批进场，尾盘确认支撑有效可加仓。&quot;, &quot;failure&quot;: &quot;跌破止损 65.71；收盘跌回参考价下方，冲高接近目标 74.7 后量能衰减。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002156.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>回踩支撑成立且不跌破关键价位，参考价 65.71 附近分批关注；盘中靠近支撑位时分批进场，尾盘确认支撑有效可加仓。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破止损 65.71；收盘跌回参考价下方，冲高接近目标 74.7 后量能衰减。</p></div>
                 <div class="idea-foot">
@@ -1147,7 +1177,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;601869.SH&quot;, &quot;name&quot;: &quot;长飞光纤&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 471.55, &quot;confidence&quot;: 7.8, &quot;support&quot;: 454.44, &quot;resistance&quot;: 495.0, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;右侧确认买点，突破或放量转强后确定性更高；主线有热度：通信设备；RPS96，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜5天，资金参与结构更分散；投研推荐加分0.8：连接器/铜缆，环节角色：中游接力，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.3分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。&quot;, &quot;failure&quot;: &quot;跌破 454.44 或放量跌破BBI/20日线时失效；接近 495.0 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="601869.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 454.44 或放量跌破BBI/20日线时失效；接近 495.0 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1191,7 +1221,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688256.SH&quot;, &quot;name&quot;: &quot;寒武纪&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 1507.46, &quot;confidence&quot;: 7.7, &quot;support&quot;: 1319.97, &quot;resistance&quot;: 1540.0, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;右侧确认买点，突破或放量转强后确定性更高；主线有热度：半导体；RPS91，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜3天，资金参与结构更分散；投研推荐加分1.1：HBM，为当前最热细分，环节角色：中游接力，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.3分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。&quot;, &quot;failure&quot;: &quot;跌破 1319.97 或放量跌破BBI/20日线时失效；接近 1540.0 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688256.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 1319.97 或放量跌破BBI/20日线时失效；接近 1540.0 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1235,7 +1265,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260509 国家集成电路产业投资基金股份有限公司DE，变动比例0.71%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002156.SZ&quot;, &quot;name&quot;: &quot;通富微电&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 68.27, &quot;confidence&quot;: 7.6, &quot;support&quot;: 65.71, &quot;resistance&quot;: 74.7, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;右侧确认买点，突破或放量转强后确定性更高；主线有热度：半导体；RPS90，相对强度较高；20/60日动量和均线斜率较好；人气热榜8天，资金参与结构更分散；多个买点共振：B1、B2；投研推荐加分0.8：NAND，环节角色：中游接力，板块轮动：中游接力确认，细分状态：轮动保持活跃，优先看前排是否继续放量&quot;, &quot;trigger&quot;: &quot;B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。&quot;, &quot;failure&quot;: &quot;跌破 65.71 或放量跌破BBI/20日线时失效；接近 74.7 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002156.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 65.71 或放量跌破BBI/20日线时失效；接近 74.7 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1279,7 +1309,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;300476.SZ&quot;, &quot;name&quot;: &quot;胜宏科技&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 369.0, &quot;confidence&quot;: 7.6, &quot;support&quot;: 354.83, &quot;resistance&quot;: 396.85, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;右侧确认买点，突破或放量转强后确定性更高；主线有热度：元器件；RPS87，相对强度较高；20/60日动量和均线斜率较好；人气热榜8天，资金参与结构更分散；投研推荐加分0.6：高多层板，环节角色：中游接力，板块轮动：上游强势，中游开始接力，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.6分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。&quot;, &quot;failure&quot;: &quot;跌破 354.83 或放量跌破BBI/20日线时失效；接近 396.85 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="300476.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 354.83 或放量跌破BBI/20日线时失效；接近 396.85 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1342,7 +1372,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000063.SZ&quot;, &quot;name&quot;: &quot;中兴通讯&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 37.89, &quot;confidence&quot;: 7.6, &quot;support&quot;: 37.84, &quot;resistance&quot;: 39.53, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;强趋势延续，适合已有利润垫跟随；主线有热度：通信设备；RPS81，相对强度较高；20/60日动量和均线斜率较好；人气热榜7天，资金参与结构更分散；多个买点共振：B1、B3、双线/BBI买点；投研推荐加分0.7：数据中心/AI服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;B3强趋势延续：强趋势延续中的缩量回踩，适合已有利润垫时跟踪。&quot;, &quot;failure&quot;: &quot;跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破39.53；若回踩37.84附近，重点验证BOLL中轨支撑；若放量延续，可看突破确认力度；失效条件看跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000063.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B3强趋势延续：强趋势延续中的缩量回踩，适合已有利润垫时跟踪。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1391,7 +1421,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;601138.SH&quot;, &quot;name&quot;: &quot;工业富联&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 78.08, &quot;confidence&quot;: 8.3, &quot;support&quot;: 73.32, &quot;resistance&quot;: 80.62, &quot;position&quot;: &quot;3%&quot;, &quot;include_reason&quot;: &quot;关键位置放量中大阳，后续看关键K低点是否守住；主线强度高：共封装光学(CPO)；RPS92，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜8天，资金参与结构更分散；投研推荐加分0.9：数据中心/AI服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.8分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;关键K：关键位置出现放量中大阳，后续更适合等缩量回踩不破关键K低点。&quot;, &quot;failure&quot;: &quot;跌破 73.32 或放量跌破BBI/20日线时失效；接近 80.62 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破80.62；若回踩73.32附近，重点验证BOLL中轨支撑；若放量延续，可看突破确认力度；失效条件看跌破 73.32 或放量跌破BBI/20日线时失效；接近 80.62 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="601138.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>关键K：关键位置出现放量中大阳，后续更适合等缩量回踩不破关键K低点。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 73.32 或放量跌破BBI/20日线时失效；接近 80.62 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1454,7 +1484,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000063.SZ&quot;, &quot;name&quot;: &quot;中兴通讯&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 37.89, &quot;confidence&quot;: 7.6, &quot;support&quot;: 37.84, &quot;resistance&quot;: 39.53, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;线上体系或3/4量确认，偏向洗盘后的承接验证；主线有热度：通信设备；RPS81，相对强度较高；20/60日动量和均线斜率较好；人气热榜7天，资金参与结构更分散；多个买点共振：B1、B3、双线/BBI买点；投研推荐加分0.7：数据中心/AI服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;双线/BBI买点：股价在线上体系内回踩BBI不破，符合右侧安全带逻辑。&quot;, &quot;failure&quot;: &quot;跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破39.53；若回踩37.84附近，重点验证BOLL中轨支撑；若放量延续，可看突破确认力度；失效条件看跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000063.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>双线/BBI买点：股价在线上体系内回踩BBI不破，符合右侧安全带逻辑。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1503,7 +1533,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002579.SZ&quot;, &quot;name&quot;: &quot;中京电子&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 20.32, &quot;confidence&quot;: 8.0, &quot;support&quot;: 17.21, &quot;resistance&quot;: 21.44, &quot;position&quot;: &quot;3%&quot;, &quot;include_reason&quot;: &quot;线上体系或3/4量确认，偏向洗盘后的承接验证；主线强度高：元器件；RPS96，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜8天，资金参与结构更分散；多个买点共振：集合竞价、3/4量确认；投研推荐加分0.8：HDI，环节角色：中游接力，板块轮动：上游强势，中游开始接力，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;3/4量确认：成交量约为前日0.73倍，接近3/4量洗盘确认区。&quot;, &quot;failure&quot;: &quot;跌破 17.21 或放量跌破BBI/20日线时失效；接近 21.44 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破21.44；若回踩17.21附近，重点验证BOLL中轨支撑；优先等量能重新放大后再确认；失效条件看跌破 17.21 或放量跌破BBI/20日线时失效；接近 21.44 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002579.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>3/4量确认：成交量约为前日0.73倍，接近3/4量洗盘确认区。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 17.21 或放量跌破BBI/20日线时失效；接近 21.44 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1547,7 +1577,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600206.SH&quot;, &quot;name&quot;: &quot;有研新材&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 42.51, &quot;confidence&quot;: 7.7, &quot;support&quot;: 34.27, &quot;resistance&quot;: 43.51, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;线上体系或3/4量确认，偏向洗盘后的承接验证；主线强度高：半导体；RPS97，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜7天，资金参与结构更分散；投研推荐加分1.1：晶圆代工，环节角色：中游制造，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合6.8分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;3/4量确认：成交量约为前日0.80倍，接近3/4量洗盘确认区。&quot;, &quot;failure&quot;: &quot;跌破 34.27 或放量跌破BBI/20日线时失效；接近 43.51 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600206.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>3/4量确认：成交量约为前日0.80倍，接近3/4量洗盘确认区。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 34.27 或放量跌破BBI/20日线时失效；接近 43.51 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1591,7 +1621,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260602 永鼎集团有限公司DE，变动比例1.00%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600105.SH&quot;, &quot;name&quot;: &quot;永鼎股份&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 62.12, &quot;confidence&quot;: 7.5, &quot;support&quot;: 55.89, &quot;resistance&quot;: 62.16, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;线上体系或3/4量确认，偏向洗盘后的承接验证；主线有热度：通信设备；RPS97，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜8天，资金参与结构更分散；投研推荐加分0.9：OCS交换机，环节角色：中游接力，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合6.7分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;3/4量确认：成交量约为前日0.69倍，接近3/4量洗盘确认区。&quot;, &quot;failure&quot;: &quot;跌破 55.89 或放量跌破BBI/20日线时失效；接近 62.16 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600105.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>3/4量确认：成交量约为前日0.69倍，接近3/4量洗盘确认区。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 55.89 或放量跌破BBI/20日线时失效；接近 62.16 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1635,7 +1665,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260227 陈仁喜DE，变动比例0.01%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600183.SH&quot;, &quot;name&quot;: &quot;生益科技&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 183.87, &quot;confidence&quot;: 7.5, &quot;support&quot;: 157.66, &quot;resistance&quot;: 183.69, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;线上体系或3/4量确认，偏向洗盘后的承接验证；主线有热度：元器件；RPS99，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜8天，资金参与结构更分散；投研推荐加分0.6：覆铜板，环节角色：上游材料，板块轮动：上游强势，中游开始接力，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.1分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;3/4量确认：成交量约为前日0.69倍，接近3/4量洗盘确认区。&quot;, &quot;failure&quot;: &quot;跌破 157.66 或放量跌破BBI/20日线时失效；接近 183.69 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600183.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>3/4量确认：成交量约为前日0.69倍，接近3/4量洗盘确认区。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 157.66 或放量跌破BBI/20日线时失效；接近 183.69 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -2063,7 +2093,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
       <section class="dashboard-page" data-page="watch">
         <section class="panel">
           <div class="section-head"><h2>自选股</h2><span data-watch-count>0只</span></div>
-          
+          <div class="watch-mode-panel"><div class="watch-mode-head"><b>盯盘模式</b><span data-watch-mode-time>本地问财实时</span></div><div class="watch-mode-list" data-watch-mode-list></div></div>
           <div class="watch-list" data-watch-list></div>
         </section>
       </section>
@@ -2071,7 +2101,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
       <section class="dashboard-page" data-page="portfolio">
         <section class="panel">
           <div class="section-head"><h2>模拟舱</h2><span>日线基准 2026-06-18 ｜ 100万模拟舱 / 自动择强 / 买卖与做T记录</span></div>
-          
+          <div class="watch-mode-panel"><div class="watch-mode-head"><b>盯盘模式</b><span data-watch-mode-time>本地问财实时</span></div><div class="watch-mode-list" data-sim-watch-mode-list></div></div>
           
       <p class="analysis-summary">100万模拟舱按80分以上买点择强择位运行；本次为手动更新，允许按当前信号执行模拟舱操作；本阶段已执行过模拟舱操作，本次只刷新持仓估值和分析；当前持有5只，仓位34.3%（目标上限45.0%）；本次记录买入0笔、卖出0笔、做T0笔；并未把所有候选都买入，只优先主线内高分、位置不追高且止损线清晰的股票。</p>
       <div class="band metrics sim-metrics">
