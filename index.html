@@ -350,6 +350,13 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
   .six-row { grid-template-columns: 1fr; gap: 2px; }
 }
 
+.local-control { display: flex; align-items: center; gap: 10px; margin: 10px 0 6px; }
+.local-control button { min-height: 34px; padding: 0 12px; border: 0; border-radius: 6px; background: #1f6feb; color: #fff; font-weight: 800; cursor: pointer; }
+.local-control button:disabled { background: #98a2b3; cursor: default; }
+.local-control small { color: var(--muted); font-size: 12px; }
+.local-control.muted { color: #1d7f52; font-size: 12px; font-weight: 700; }
+.local-control button.added { background: #12805c; }
+
 .watch-mode-panel { margin-bottom: 14px; padding: 14px; border: 1px solid #d6e4ff; border-radius: 8px; background: #f8fbff; }
 .watch-mode-head { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-bottom: 10px; }
 .watch-mode-head b { font-size: 15px; }
@@ -515,43 +522,43 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
         <section class="panel">
           <div class="section-head"><h2>热榜前10 / 综合热股前10</h2><span>实时 2026-06-22</span></div>
           <table><thead><tr><th>排名</th><th>股票</th><th>综合分</th><th>涨跌</th><th>来源</th><th>异动风险</th></tr></thead><tbody><tr>
-          <td>1</td><td><b>京东方A</b><span>000725.SZ</span></td>
+          <td>1</td><td><b>京东方A</b><span>000725.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000725.SZ&quot;, &quot;name&quot;: &quot;京东方A&quot;, &quot;industry&quot;: null, &quot;close&quot;: 6.55, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000725.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>100.0</td><td>-1.50%</td><td><span class="pill">财联社#1</span><span class="pill">同花顺#1</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td>2</td><td><b>太极实业</b><span>600667.SH</span></td>
+          <td>2</td><td><b>太极实业</b><span>600667.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600667.SH&quot;, &quot;name&quot;: &quot;太极实业&quot;, &quot;industry&quot;: null, &quot;close&quot;: 20.92, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日上证A股涨0.0%时，个股涨4.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600667.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>99.2</td><td>+9.99%</td><td><span class="pill">财联社#2</span><span class="pill">同花顺#3</span></td>
           <td><span class="abnormal-risk warn"><b>异动</b>次日上证A股涨0.0%时，个股涨4.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td>3</td><td><b>黄河旋风</b><span>600172.SH</span></td>
+          <td>3</td><td><b>黄河旋风</b><span>600172.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600172.SH&quot;, &quot;name&quot;: &quot;黄河旋风&quot;, &quot;industry&quot;: null, &quot;close&quot;: 14.01, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600172.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>98.7</td><td>+5.34%</td><td><span class="pill">财联社#4</span><span class="pill">同花顺#5</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td>4</td><td><b>亨通光电</b><span>600487.SH</span></td>
+          <td>4</td><td><b>亨通光电</b><span>600487.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600487.SH&quot;, &quot;name&quot;: &quot;亨通光电&quot;, &quot;industry&quot;: null, &quot;close&quot;: 111.01, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600487.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>96.4</td><td>+0.01%</td><td><span class="pill">财联社#5</span><span class="pill">同花顺#7</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td>5</td><td><b>大唐发电</b><span>601991.SH</span></td>
+          <td>5</td><td><b>大唐发电</b><span>601991.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;601991.SH&quot;, &quot;name&quot;: &quot;大唐发电&quot;, &quot;industry&quot;: null, &quot;close&quot;: 8.22, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="601991.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>96.4</td><td>-9.97%</td><td><span class="pill">财联社#9</span><span class="pill">同花顺#2</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td>6</td><td><b>中钨高新</b><span>000657.SZ</span></td>
+          <td>6</td><td><b>中钨高新</b><span>000657.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000657.SZ&quot;, &quot;name&quot;: &quot;中钨高新&quot;, &quot;industry&quot;: null, &quot;close&quot;: 98.48, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000657.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>96.2</td><td>+10.00%</td><td><span class="pill">财联社#3</span><span class="pill">同花顺#12</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td>7</td><td><b>有研新材</b><span>600206.SH</span></td>
+          <td>7</td><td><b>有研新材</b><span>600206.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600206.SH&quot;, &quot;name&quot;: &quot;有研新材&quot;, &quot;industry&quot;: null, &quot;close&quot;: 42.51, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600206.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>96.2</td><td>+6.84%</td><td><span class="pill">财联社#6</span><span class="pill">同花顺#8</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td>8</td><td><b>长电科技</b><span>600584.SH</span></td>
+          <td>8</td><td><b>长电科技</b><span>600584.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600584.SH&quot;, &quot;name&quot;: &quot;长电科技&quot;, &quot;industry&quot;: null, &quot;close&quot;: 83.03, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600584.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>95.2</td><td>+1.55%</td><td><span class="pill">财联社#8</span><span class="pill">同花顺#6</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td>9</td><td><b>三安光电</b><span>600703.SH</span></td>
+          <td>9</td><td><b>三安光电</b><span>600703.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600703.SH&quot;, &quot;name&quot;: &quot;三安光电&quot;, &quot;industry&quot;: null, &quot;close&quot;: 17.54, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600703.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>92.7</td><td>+2.21%</td><td><span class="pill">财联社#11</span><span class="pill">同花顺#11</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td>10</td><td><b>中天科技</b><span>600522.SH</span></td>
+          <td>10</td><td><b>中天科技</b><span>600522.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600522.SH&quot;, &quot;name&quot;: &quot;中天科技&quot;, &quot;industry&quot;: null, &quot;close&quot;: 56.55, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600522.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>91.5</td><td>+2.99%</td><td><span class="pill">财联社#12</span><span class="pill">同花顺#9</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr></tbody></table>
@@ -652,7 +659,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
               <em>+10.00%</em>
               <div class="concept-tags"><small class="concept-main">元器件</small><small class="concept-trend">第三代半导体</small><small class="concept-trend">光刻机</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600353.SH&quot;, &quot;name&quot;: &quot;旭光电子&quot;, &quot;industry&quot;: null, &quot;close&quot;: 42.01, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600353.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article>
         </section><section class="ladder-col">
@@ -662,28 +669,28 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
               <em>+10.05%</em>
               <div class="concept-tags"><small class="concept-main">农业综合</small><small class="concept-trend">动物疫苗</small><small class="concept-trend">广东自贸区</small></div>
               <div><small>涨停</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002141.SZ&quot;, &quot;name&quot;: &quot;贤丰控股&quot;, &quot;industry&quot;: null, &quot;close&quot;: 4.71, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002141.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>江钨装备</b><span>600397.SH</span>
               <em>+10.02%</em>
               <div class="concept-tags"><small class="concept-main">专用机械</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600397.SH&quot;, &quot;name&quot;: &quot;江钨装备&quot;, &quot;industry&quot;: null, &quot;close&quot;: 20.2, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600397.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>中天精装</b><span>002989.SZ</span>
               <em>+10.01%</em>
               <div class="concept-tags"><small class="concept-main">装修装饰</small></div>
               <div><small>涨停</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002989.SZ&quot;, &quot;name&quot;: &quot;中天精装&quot;, &quot;industry&quot;: null, &quot;close&quot;: 37.37, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002989.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>艾华集团</b><span>603989.SH</span>
               <em>+9.99%</em>
               <div class="concept-tags"><small class="concept-main">元器件</small></div>
               <div><small>涨停</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;603989.SH&quot;, &quot;name&quot;: &quot;艾华集团&quot;, &quot;industry&quot;: null, &quot;close&quot;: 41.5, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="603989.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article>
         </section><section class="ladder-col">
@@ -693,56 +700,56 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
               <em>+20.00%</em>
               <div class="concept-tags"><small class="concept-main">矿物制品</small></div>
               <div><small>涨停</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688598.SH&quot;, &quot;name&quot;: &quot;金博股份&quot;, &quot;industry&quot;: null, &quot;close&quot;: 59.75, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日科创50涨0.0%时，个股不涨也可能进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688598.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日科创50涨0.0%时，个股不涨也可能进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>铂力特</b><span>688333.SH</span>
               <em>+20.00%</em>
               <div class="concept-tags"><small class="concept-main">机械基件</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688333.SH&quot;, &quot;name&quot;: &quot;铂力特&quot;, &quot;industry&quot;: null, &quot;close&quot;: 107.28, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日科创50涨0.0%时，个股不涨也可能进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688333.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日科创50涨0.0%时，个股不涨也可能进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>世名科技</b><span>300522.SZ</span>
               <em>+19.99%</em>
               <div class="concept-tags"><small class="concept-main">染料涂料</small></div>
               <div><small>涨停</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;300522.SZ&quot;, &quot;name&quot;: &quot;世名科技&quot;, &quot;industry&quot;: null, &quot;close&quot;: 19.21, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日创业板综涨0.0%时，个股不涨也可能进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="300522.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日创业板综涨0.0%时，个股不涨也可能进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>中京电子</b><span>002579.SZ</span>
               <em>+10.02%</em>
               <div class="concept-tags"><small class="concept-main">元器件</small><small class="concept-trend">PCB概念</small><small class="concept-trend">AIPC</small></div>
               <div><small>涨停</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002579.SZ&quot;, &quot;name&quot;: &quot;中京电子&quot;, &quot;industry&quot;: null, &quot;close&quot;: 20.32, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002579.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>盛剑科技</b><span>603324.SH</span>
               <em>+10.01%</em>
               <div class="concept-tags"><small class="concept-main">环境保护</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;603324.SH&quot;, &quot;name&quot;: &quot;盛剑科技&quot;, &quot;industry&quot;: null, &quot;close&quot;: 43.1, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="603324.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>智微智能</b><span>001339.SZ</span>
               <em>+10.00%</em>
               <div class="concept-tags"><small class="concept-main">IT设备</small></div>
               <div><small>涨停</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;001339.SZ&quot;, &quot;name&quot;: &quot;智微智能&quot;, &quot;industry&quot;: null, &quot;close&quot;: 126.93, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="001339.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>通鼎互联</b><span>002491.SZ</span>
               <em>+10.00%</em>
               <div class="concept-tags"><small class="concept-main">通信设备</small><small class="concept-trend">光纤概念</small><small class="concept-trend">5G</small></div>
               <div><small>涨停</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002491.SZ&quot;, &quot;name&quot;: &quot;通鼎互联&quot;, &quot;industry&quot;: null, &quot;close&quot;: 31.58, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002491.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>冰轮环境</b><span>000811.SZ</span>
               <em>+9.99%</em>
               <div class="concept-tags"><small class="concept-main">工程机械</small><small class="concept-trend">中芯国际概念</small><small class="concept-trend">液冷服务器</small></div>
               <div><small>一字板</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000811.SZ&quot;, &quot;name&quot;: &quot;冰轮环境&quot;, &quot;industry&quot;: null, &quot;close&quot;: 40.17, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000811.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article>
         </section><section class="ladder-col">
@@ -752,84 +759,84 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
               <em>+20.03%</em>
               <div class="concept-tags"><small class="concept-main">软件服务</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;300166.SZ&quot;, &quot;name&quot;: &quot;东方国信&quot;, &quot;industry&quot;: null, &quot;close&quot;: 18.7, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日创业板综涨0.0%时，个股涨12.0%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="300166.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日创业板综涨0.0%时，个股涨12.0%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>麦捷科技</b><span>300319.SZ</span>
               <em>+20.02%</em>
               <div class="concept-tags"><small class="concept-main">元器件</small><small class="concept-trend">共封装光学(CPO)</small><small class="concept-trend">消费电子概念</small></div>
               <div><small>涨停</small><small>平量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;300319.SZ&quot;, &quot;name&quot;: &quot;麦捷科技&quot;, &quot;industry&quot;: null, &quot;close&quot;: 27.76, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日创业板综涨0.0%时，个股涨10.5%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="300319.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日创业板综涨0.0%时，个股涨10.5%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>九州一轨</b><span>688485.SH</span>
               <em>+20.01%</em>
               <div class="concept-tags"><small class="concept-main">运输设备</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688485.SH&quot;, &quot;name&quot;: &quot;九州一轨&quot;, &quot;industry&quot;: null, &quot;close&quot;: 67.9, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日科创50涨0.0%时，个股涨10.0%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688485.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日科创50涨0.0%时，个股涨10.0%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>晶升股份</b><span>688478.SH</span>
               <em>+20.01%</em>
               <div class="concept-tags"><small class="concept-main">半导体</small></div>
               <div><small>涨停</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688478.SH&quot;, &quot;name&quot;: &quot;晶升股份&quot;, &quot;industry&quot;: null, &quot;close&quot;: 80.44, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日科创50涨0.0%时，个股涨12.9%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688478.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日科创50涨0.0%时，个股涨12.9%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>爱迪特</b><span>301580.SZ</span>
               <em>+20.00%</em>
               <div class="concept-tags"><small class="concept-main">医疗保健</small></div>
               <div><small>一字板</small><small>缩量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;301580.SZ&quot;, &quot;name&quot;: &quot;爱迪特&quot;, &quot;industry&quot;: null, &quot;close&quot;: 63.17, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日创业板综涨0.0%时，个股涨0.1%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="301580.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk danger"><b>异动</b>次日创业板综涨0.0%时，个股涨0.1%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>春晖智控</b><span>300943.SZ</span>
               <em>+20.00%</em>
               <div class="concept-tags"><small class="concept-main">机械基件</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;300943.SZ&quot;, &quot;name&quot;: &quot;春晖智控&quot;, &quot;industry&quot;: null, &quot;close&quot;: 41.4, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日创业板综涨0.0%时，个股涨14.9%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="300943.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日创业板综涨0.0%时，个股涨14.9%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>新广益</b><span>301687.SZ</span>
               <em>+20.00%</em>
               <div class="concept-tags"><small class="concept-main">化工原料</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;301687.SZ&quot;, &quot;name&quot;: &quot;新广益&quot;, &quot;industry&quot;: null, &quot;close&quot;: 82.44, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日创业板综涨0.0%时，个股涨7.5%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="301687.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日创业板综涨0.0%时，个股涨7.5%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>品高股份</b><span>688227.SH</span>
               <em>+20.00%</em>
               <div class="concept-tags"><small class="concept-main">软件服务</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688227.SH&quot;, &quot;name&quot;: &quot;品高股份&quot;, &quot;industry&quot;: null, &quot;close&quot;: 102.3, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日科创50涨0.0%时，个股涨18.6%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688227.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日科创50涨0.0%时，个股涨18.6%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>裕太微-U</b><span>688515.SH</span>
               <em>+20.00%</em>
               <div class="concept-tags"><small class="concept-main">半导体</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688515.SH&quot;, &quot;name&quot;: &quot;裕太微-U&quot;, &quot;industry&quot;: null, &quot;close&quot;: 238.8, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日科创50涨0.0%时，个股涨17.8%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688515.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日科创50涨0.0%时，个股涨17.8%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>碧兴物联</b><span>688671.SH</span>
               <em>+20.00%</em>
               <div class="concept-tags"><small class="concept-main">环境保护</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688671.SH&quot;, &quot;name&quot;: &quot;碧兴物联&quot;, &quot;industry&quot;: null, &quot;close&quot;: 30.78, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日科创50涨0.0%时，个股涨13.0%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688671.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日科创50涨0.0%时，个股涨13.0%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>鑫宏业</b><span>301310.SZ</span>
               <em>+19.99%</em>
               <div class="concept-tags"><small class="concept-main">汽车配件</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;301310.SZ&quot;, &quot;name&quot;: &quot;鑫宏业&quot;, &quot;industry&quot;: null, &quot;close&quot;: 46.75, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日创业板综涨0.0%时，个股涨7.4%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="301310.SZ">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日创业板综涨0.0%时，个股涨7.4%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article><article class="stock-chip">
               <b>屹唐股份</b><span>688729.SH</span>
               <em>+19.99%</em>
               <div class="concept-tags"><small class="concept-main">半导体</small></div>
               <div><small>涨停</small><small>放量</small></div>
-              
+              <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688729.SH&quot;, &quot;name&quot;: &quot;屹唐股份&quot;, &quot;industry&quot;: null, &quot;close&quot;: 33.07, &quot;confidence&quot;: null, &quot;support&quot;: null, &quot;resistance&quot;: null, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日科创50涨0.0%时，个股涨15.3%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688729.SH">加入自选</button><small>写入同步文件</small></div>
               <p class="abnormal-risk watch"><b>异动</b>次日科创50涨0.0%时，个股涨15.3%将进入3日涨幅偏离值达30%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</p>
             </article>
         </section></div>
@@ -841,7 +848,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
       <p class="analysis-summary">集合竞价优先使用问财SkillHub，结合竞价涨幅、匹配金额、未匹配金额、评级、异动类型和流动性冲击；只保留主板主线股；12/12只达到80分仓位线，重点复核策略买点/模拟舱股票16只。高开强势、未匹配买盘为正、评级看多且主线清晰的票更容易被定义为弱转强或竞价抢筹；竞价砸盘、虚强高开和涨停试盘只做风险复核，不直接提高仓位。</p>
       <h3>重点复核</h3>
       <table><thead><tr><th>股票</th><th>来源</th><th>竞价状态</th><th>竞价分</th><th>竞价涨幅</th><th>支撑/压力</th><th>后续</th><th>异动风险</th></tr></thead><tbody><tr>
-          <td><b>中京电子</b><span>002579.SZ</span></td>
+          <td><b>中京电子</b><span>002579.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002579.SZ&quot;, &quot;name&quot;: &quot;中京电子&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 19.01, &quot;confidence&quot;: 8.8, &quot;support&quot;: 15.01, &quot;resistance&quot;: 21.88, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002579.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(VOL34)</td>
           <td>强势竞价<span>小高开</span></td>
           <td>88分<span>微观 6.3分</span></td>
@@ -850,7 +857,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>未评级 / 急速下跌；未匹配金额0.03亿；委差--；委买/委卖--/--；一分钟跌幅大于3%</td>
           <td><span class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>通鼎互联</b><span>002491.SZ</span></td>
+          <td><b>通鼎互联</b><span>002491.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002491.SZ&quot;, &quot;name&quot;: &quot;通鼎互联&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 30.01, &quot;confidence&quot;: 10.0, &quot;support&quot;: 22.36, &quot;resistance&quot;: 31.58, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002491.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>模拟舱</td>
           <td>竞价抢筹<span>小高开</span></td>
           <td>100分<span>微观 8.1分</span></td>
@@ -859,7 +866,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>偏多 / 急速上涨；未匹配金额0.08亿；委差--；委买/委卖--/--；一分钟涨幅大于3%</td>
           <td><span class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>丰元股份</b><span>002805.SZ</span></td>
+          <td><b>丰元股份</b><span>002805.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002805.SZ&quot;, &quot;name&quot;: &quot;丰元股份&quot;, &quot;industry&quot;: &quot;电气设备&quot;, &quot;close&quot;: 25.61, &quot;confidence&quot;: 9.0, &quot;support&quot;: 19.37, &quot;resistance&quot;: 26.88, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨10.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002805.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(VOL34)</td>
           <td>竞价抢筹<span>小高开</span></td>
           <td>90分<span>微观 7.4分</span></td>
@@ -868,7 +875,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看多 / 竞价抢筹；未匹配金额0.00亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk watch"><b>异动</b>次日深证A股涨0.0%时，个股涨10.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>红星发展</b><span>600367.SH</span></td>
+          <td><b>红星发展</b><span>600367.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600367.SH&quot;, &quot;name&quot;: &quot;红星发展&quot;, &quot;industry&quot;: &quot;化工原料&quot;, &quot;close&quot;: 57.59, &quot;confidence&quot;: 7.8, &quot;support&quot;: 46.12, &quot;resistance&quot;: 62.18, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600367.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(VOL34)</td>
           <td>竞价抢筹<span>平开</span></td>
           <td>78分<span>微观 6.8分</span></td>
@@ -877,7 +884,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看多 / 竞价抢筹；未匹配金额0.00亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>生益科技</b><span>600183.SH</span></td>
+          <td><b>生益科技</b><span>600183.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600183.SH&quot;, &quot;name&quot;: &quot;生益科技&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 178.5, &quot;confidence&quot;: 7.6, &quot;support&quot;: 126.0, &quot;resistance&quot;: 191.0, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600183.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(VOL34)</td>
           <td>中性<span>平开</span></td>
           <td>76分<span>微观 6.1分</span></td>
@@ -886,7 +893,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>混战 / 买一剩余大；未匹配金额0.31亿；委差--；委买/委卖--/--；买一剩余3063万元</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>中兴通讯</b><span>000063.SZ</span></td>
+          <td><b>中兴通讯</b><span>000063.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000063.SZ&quot;, &quot;name&quot;: &quot;中兴通讯&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 37.41, &quot;confidence&quot;: 7.3, &quot;support&quot;: 35.7, &quot;resistance&quot;: 41.3, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000063.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(B1/B3/LINE)</td>
           <td>竞价抢筹<span>平开</span></td>
           <td>73分<span>微观 5.7分</span></td>
@@ -895,7 +902,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看多 / 竞价抢筹；未匹配金额0.01亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>士兰微</b><span>600460.SH</span></td>
+          <td><b>士兰微</b><span>600460.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600460.SH&quot;, &quot;name&quot;: &quot;士兰微&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 40.5, &quot;confidence&quot;: 7.3, &quot;support&quot;: 31.82, &quot;resistance&quot;: 42.62, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日上证A股涨0.0%时，个股涨10.9%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600460.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(VOL34)</td>
           <td>竞价抢筹<span>平开</span></td>
           <td>73分<span>微观 5.5分</span></td>
@@ -904,7 +911,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看多 / 竞价抢筹；未匹配金额-0.00亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk watch"><b>异动</b>次日上证A股涨0.0%时，个股涨10.9%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>工业富联</b><span>601138.SH</span></td>
+          <td><b>工业富联</b><span>601138.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;601138.SH&quot;, &quot;name&quot;: &quot;工业富联&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 72.0, &quot;confidence&quot;: 7.1, &quot;support&quot;: 68.2, &quot;resistance&quot;: 84.95, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="601138.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(KEYK)</td>
           <td>竞价砸盘<span>平开</span></td>
           <td>71分<span>微观 4.7分</span></td>
@@ -913,7 +920,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看空 / 竞价砸盘；未匹配金额0.10亿；委差--；委买/委卖--/--；单笔放量10%以上砸盘</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>埃斯顿</b><span>002747.SZ</span></td>
+          <td><b>埃斯顿</b><span>002747.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002747.SZ&quot;, &quot;name&quot;: &quot;埃斯顿&quot;, &quot;industry&quot;: &quot;机械基件&quot;, &quot;close&quot;: 33.53, &quot;confidence&quot;: 6.8, &quot;support&quot;: 28.11, &quot;resistance&quot;: 39.9, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002747.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(B3)</td>
           <td>竞价抢筹<span>小高开</span></td>
           <td>68分<span>微观 5.9分</span></td>
@@ -922,7 +929,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看多 / 竞价抢筹；未匹配金额-0.00亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>康达新材</b><span>002669.SZ</span></td>
+          <td><b>康达新材</b><span>002669.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002669.SZ&quot;, &quot;name&quot;: &quot;康达新材&quot;, &quot;industry&quot;: &quot;化工原料&quot;, &quot;close&quot;: 17.39, &quot;confidence&quot;: 6.7, &quot;support&quot;: 15.18, &quot;resistance&quot;: 19.13, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002669.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(B2)</td>
           <td>竞价抢筹<span>平开</span></td>
           <td>67分<span>微观 5.8分</span></td>
@@ -931,7 +938,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看多 / 竞价抢筹；未匹配金额0.00亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>振华科技</b><span>000733.SZ</span></td>
+          <td><b>振华科技</b><span>000733.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000733.SZ&quot;, &quot;name&quot;: &quot;振华科技&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 58.65, &quot;confidence&quot;: 6.5, &quot;support&quot;: 47.12, &quot;resistance&quot;: 61.77, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000733.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(VOL34)</td>
           <td>平开确认<span>平开</span></td>
           <td>65分<span>微观 5.3分</span></td>
@@ -940,7 +947,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>未评级 / 普通竞价；未匹配金额0.01亿；委差--；委买/委卖--/--；无异动说明</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>双星新材</b><span>002585.SZ</span></td>
+          <td><b>双星新材</b><span>002585.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002585.SZ&quot;, &quot;name&quot;: &quot;双星新材&quot;, &quot;industry&quot;: &quot;塑料&quot;, &quot;close&quot;: 14.79, &quot;confidence&quot;: 6.5, &quot;support&quot;: 10.93, &quot;resistance&quot;: 15.18, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002585.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(VOL34)</td>
           <td>竞价抢筹<span>平开</span></td>
           <td>65分<span>微观 6.1分</span></td>
@@ -949,7 +956,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看多 / 竞价抢筹；未匹配金额0.05亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>华锋股份</b><span>002806.SZ</span></td>
+          <td><b>华锋股份</b><span>002806.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002806.SZ&quot;, &quot;name&quot;: &quot;华锋股份&quot;, &quot;industry&quot;: &quot;汽车配件&quot;, &quot;close&quot;: 20.95, &quot;confidence&quot;: 6.5, &quot;support&quot;: 17.11, &quot;resistance&quot;: 22.18, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002806.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(VOL34)</td>
           <td>竞价抢筹<span>平开</span></td>
           <td>65分<span>微观 5.9分</span></td>
@@ -958,7 +965,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看多 / 竞价抢筹；未匹配金额0.00亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>中大力德</b><span>002896.SZ</span></td>
+          <td><b>中大力德</b><span>002896.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002896.SZ&quot;, &quot;name&quot;: &quot;中大力德&quot;, &quot;industry&quot;: &quot;机械基件&quot;, &quot;close&quot;: 79.72, &quot;confidence&quot;: 6.3, &quot;support&quot;: 74.41, &quot;resistance&quot;: 95.4, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002896.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(B1/B2/LINE)</td>
           <td>竞价抢筹<span>平开</span></td>
           <td>63分<span>微观 5.6分</span></td>
@@ -967,7 +974,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>看多 / 竞价抢筹；未匹配金额0.00亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>有研新材</b><span>600206.SH</span></td>
+          <td><b>有研新材</b><span>600206.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600206.SH&quot;, &quot;name&quot;: &quot;有研新材&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 38.79, &quot;confidence&quot;: 6.3, &quot;support&quot;: 27.24, &quot;resistance&quot;: 43.51, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600206.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(VOL34)</td>
           <td>竞价抢筹<span>小低开</span></td>
           <td>63分<span>微观 4分</span></td>
@@ -976,7 +983,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>混战 / 竞价抢筹；未匹配金额-0.00亿；委差--；委买/委卖--/--；单笔放量10%以上抢筹</td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>岱美股份</b><span>603730.SH</span></td>
+          <td><b>岱美股份</b><span>603730.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;603730.SH&quot;, &quot;name&quot;: &quot;岱美股份&quot;, &quot;industry&quot;: &quot;汽车配件&quot;, &quot;close&quot;: 13.03, &quot;confidence&quot;: 5.9, &quot;support&quot;: 11.75, &quot;resistance&quot;: 14.44, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="603730.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>买点复核(LINE/VOL34)</td>
           <td>竞价抢筹<span>平开</span></td>
           <td>59分<span>微观 5.5分</span></td>
@@ -987,7 +994,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
         </tr></tbody></table>
       <h3>竞价强度榜</h3>
       <table><thead><tr><th>股票</th><th>状态</th><th>竞价分</th><th>竞价涨幅</th><th>竞价额/未匹配</th><th>评级/异动</th><th>行业/主线</th><th>异动风险</th></tr></thead><tbody><tr>
-          <td><b>东方锆业</b><span>002167.SZ</span></td>
+          <td><b>东方锆业</b><span>002167.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002167.SZ&quot;, &quot;name&quot;: &quot;东方锆业&quot;, &quot;industry&quot;: &quot;小金属&quot;, &quot;close&quot;: 16.13, &quot;confidence&quot;: 10.0, &quot;support&quot;: 12.5, &quot;resistance&quot;: 16.13, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002167.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>竞价抢筹<span>高开</span></td>
           <td>100分<span>微观 9.9分</span></td>
           <td>+10.03%</td>
@@ -996,7 +1003,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>小金属<span>主线 8.5分</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>冰轮环境</b><span>000811.SZ</span></td>
+          <td><b>冰轮环境</b><span>000811.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000811.SZ&quot;, &quot;name&quot;: &quot;冰轮环境&quot;, &quot;industry&quot;: &quot;工程机械&quot;, &quot;close&quot;: 40.17, &quot;confidence&quot;: 10.0, &quot;support&quot;: 28.61, &quot;resistance&quot;: 40.17, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000811.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>竞价抢筹<span>高开</span></td>
           <td>100分<span>微观 9.1分</span></td>
           <td>+9.99%</td>
@@ -1005,7 +1012,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>工程机械<span>主线 4分</span></td>
           <td><span class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>旭光电子</b><span>600353.SH</span></td>
+          <td><b>旭光电子</b><span>600353.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600353.SH&quot;, &quot;name&quot;: &quot;旭光电子&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 41.5, &quot;confidence&quot;: 10.0, &quot;support&quot;: 23.76, &quot;resistance&quot;: 42.01, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600353.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>虚强高开<span>高开</span></td>
           <td>100分<span>微观 8.6分</span></td>
           <td>+8.67%</td>
@@ -1014,7 +1021,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>元器件<span>主线 9分</span></td>
           <td><span class="abnormal-risk danger"><b>异动</b>次日上证A股涨0.0%时，个股不涨也可能进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>三祥新材</b><span>603663.SH</span></td>
+          <td><b>三祥新材</b><span>603663.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;603663.SH&quot;, &quot;name&quot;: &quot;三祥新材&quot;, &quot;industry&quot;: &quot;小金属&quot;, &quot;close&quot;: 83.26, &quot;confidence&quot;: 10.0, &quot;support&quot;: 60.06, &quot;resistance&quot;: 87.49, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="603663.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>涨停试盘<span>小高开</span></td>
           <td>100分<span>微观 7.5分</span></td>
           <td>+4.68%</td>
@@ -1023,7 +1030,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>小金属<span>主线 6.4分</span></td>
           <td><span class="abnormal-risk safe"><b>异动</b>无异动风险</span></td>
         </tr><tr>
-          <td><b>通鼎互联</b><span>002491.SZ</span></td>
+          <td><b>通鼎互联</b><span>002491.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002491.SZ&quot;, &quot;name&quot;: &quot;通鼎互联&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 30.01, &quot;confidence&quot;: 10.0, &quot;support&quot;: 22.36, &quot;resistance&quot;: 31.58, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002491.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>竞价抢筹<span>小高开</span></td>
           <td>100分<span>微观 8.1分</span></td>
           <td>+4.53%</td>
@@ -1032,7 +1039,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>通信设备<span>主线 9.4分</span></td>
           <td><span class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>共达电声</b><span>002655.SZ</span></td>
+          <td><b>共达电声</b><span>002655.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002655.SZ&quot;, &quot;name&quot;: &quot;共达电声&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 40.4, &quot;confidence&quot;: 10.0, &quot;support&quot;: 32.49, &quot;resistance&quot;: 44.8, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨7.1%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002655.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>竞价抢筹<span>小高开</span></td>
           <td>100分<span>微观 7.4分</span></td>
           <td>+4.29%</td>
@@ -1041,7 +1048,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>元器件<span>主线 6.2分</span></td>
           <td><span class="abnormal-risk watch"><b>异动</b>次日深证A股涨0.0%时，个股涨7.1%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>中天精装</b><span>002989.SZ</span></td>
+          <td><b>中天精装</b><span>002989.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002989.SZ&quot;, &quot;name&quot;: &quot;中天精装&quot;, &quot;industry&quot;: &quot;装修装饰&quot;, &quot;close&quot;: 35.7, &quot;confidence&quot;: 9.7, &quot;support&quot;: 26.7, &quot;resistance&quot;: 37.37, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002989.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>竞价抢筹<span>高开</span></td>
           <td>97分<span>微观 7.7分</span></td>
           <td>+5.09%</td>
@@ -1050,7 +1057,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>装修装饰<span>主线 5.3分</span></td>
           <td><span class="abnormal-risk danger"><b>异动</b>次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>祥龙电业</b><span>600769.SH</span></td>
+          <td><b>祥龙电业</b><span>600769.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600769.SH&quot;, &quot;name&quot;: &quot;祥龙电业&quot;, &quot;industry&quot;: &quot;水务&quot;, &quot;close&quot;: 19.16, &quot;confidence&quot;: 9.3, &quot;support&quot;: 15.1, &quot;resistance&quot;: 19.16, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日上证A股涨0.0%时，个股涨5.8%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600769.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>竞价抢筹<span>高开</span></td>
           <td>93分<span>微观 8.7分</span></td>
           <td>+9.99%</td>
@@ -1059,7 +1066,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>水务<span>主线 0.5分</span></td>
           <td><span class="abnormal-risk warn"><b>异动</b>次日上证A股涨0.0%时，个股涨5.8%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>盛和资源</b><span>600392.SH</span></td>
+          <td><b>盛和资源</b><span>600392.SH</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600392.SH&quot;, &quot;name&quot;: &quot;盛和资源&quot;, &quot;industry&quot;: &quot;小金属&quot;, &quot;close&quot;: 29.0, &quot;confidence&quot;: 9.3, &quot;support&quot;: 22.05, &quot;resistance&quot;: 31.66, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日上证A股涨0.0%时，个股涨10.8%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600392.SH">加入自选</button><small>写入同步文件</small></div></td>
           <td>竞价抢筹<span>平开</span></td>
           <td>93分<span>微观 7.1分</span></td>
           <td>+0.76%</td>
@@ -1068,7 +1075,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <td>小金属<span>主线 9.2分</span></td>
           <td><span class="abnormal-risk watch"><b>异动</b>次日上证A股涨0.0%时，个股涨10.8%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。</span></td>
         </tr><tr>
-          <td><b>丰元股份</b><span>002805.SZ</span></td>
+          <td><b>丰元股份</b><span>002805.SZ</span><div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002805.SZ&quot;, &quot;name&quot;: &quot;丰元股份&quot;, &quot;industry&quot;: &quot;电气设备&quot;, &quot;close&quot;: 25.61, &quot;confidence&quot;: 9.0, &quot;support&quot;: 19.37, &quot;resistance&quot;: 26.88, &quot;position&quot;: null, &quot;include_reason&quot;: &quot;&quot;, &quot;trigger&quot;: &quot;&quot;, &quot;failure&quot;: &quot;&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨10.3%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002805.SZ">加入自选</button><small>写入同步文件</small></div></td>
           <td>竞价抢筹<span>小高开</span></td>
           <td>90分<span>微观 7.4分</span></td>
           <td>+4.79%</td>
@@ -1138,7 +1145,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;603065.SH&quot;, &quot;name&quot;: &quot;宿迁联盛&quot;, &quot;industry&quot;: &quot;化工原料&quot;, &quot;close&quot;: 15.62, &quot;confidence&quot;: 7.9, &quot;support&quot;: 10.24, &quot;resistance&quot;: 16.56, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;形态选股：杯柄，评分以形态完成度、关键K线和成交量配合为主；主线有热度：化工原料；RPS97，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜3天，资金参与结构更分散；六维综合5.9分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;杯柄待突破：杯身U型修复、柄部缩量，重点看能否放量站上颈线9.55。&quot;, &quot;failure&quot;: &quot;跌破手柄低点/20日线支撑10.24，或突破后放量跌回颈线9.55下方时形态失效。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破16.18；若回踩11.49附近不破，可继续保留观察；优先等量能重新放大后再确认；失效条件看跌破手柄低点/20日线支撑10.24，或突破后放量跌回颈线9.55下方时形态失效。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="603065.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>杯柄待突破：杯身U型修复、柄部缩量，重点看能否放量站上颈线9.55。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破手柄低点/20日线支撑10.24，或突破后放量跌回颈线9.55下方时形态失效。</p></div>
                 <div class="idea-foot">
@@ -1182,7 +1189,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260529 杰智控股有限公司DE，变动比例0.66%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;300613.SZ&quot;, &quot;name&quot;: &quot;富瀚微&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 68.61, &quot;confidence&quot;: 7.7, &quot;support&quot;: 61.42, &quot;resistance&quot;: 69.48, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;形态选股：老鸭头，评分以形态完成度、关键K线和成交量配合为主；主线有热度：半导体；RPS91，属于全市场前10%强势股；20/60日动量和均线斜率较好；六维综合6.1分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;老鸭头形态：前段拉升后缩量洗盘，5/10日均线重新黏合向上；关键观察价为鸭头顶65.55，放量站稳则形态确认。&quot;, &quot;failure&quot;: &quot;跌破鸭颈/20日线支撑61.42，或放量跌回5/10/20日均线下方时形态失效。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="300613.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>老鸭头形态：前段拉升后缩量洗盘，5/10日均线重新黏合向上；关键观察价为鸭头顶65.55，放量站稳则形态确认。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破鸭颈/20日线支撑61.42，或放量跌回5/10/20日均线下方时形态失效。</p></div>
                 <div class="idea-foot">
@@ -1226,7 +1233,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260408 中电金投控股有限公司IN，变动比例3.08%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688692.SH&quot;, &quot;name&quot;: &quot;达梦数据&quot;, &quot;industry&quot;: &quot;软件服务&quot;, &quot;close&quot;: 271.28, &quot;confidence&quot;: 7.7, &quot;support&quot;: 268.52, &quot;resistance&quot;: 274.6, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;形态选股：老鸭头，评分以形态完成度、关键K线和成交量配合为主；RPS83，相对强度较高；20/60日动量和均线斜率较好；成交额和冲击成本较友好，流动性更适合执行；多个买点共振：形态选股、B2、双线/BBI买点；六维综合6.1分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;老鸭头形态：前段拉升后缩量洗盘，5/10日均线重新黏合向上；关键观察价为鸭头顶274.60，放量站稳则形态确认。&quot;, &quot;failure&quot;: &quot;跌破鸭颈/20日线支撑268.52，或放量跌回5/10/20日均线下方时形态失效。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688692.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>老鸭头形态：前段拉升后缩量洗盘，5/10日均线重新黏合向上；关键观察价为鸭头顶274.60，放量站稳则形态确认。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破鸭颈/20日线支撑268.52，或放量跌回5/10/20日均线下方时形态失效。</p></div>
                 <div class="idea-foot">
@@ -1252,7 +1259,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
                 <p class="pick-risk">形态完成度只到观察级，需等待关键价位确认；离支撑偏远，盈亏比下降；大盘接近压力，最终仓位按全局风险降级</p>
                 
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002185.SZ&quot;, &quot;name&quot;: &quot;华天科技&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 19.61, &quot;confidence&quot;: 7.7, &quot;support&quot;: 18.16, &quot;resistance&quot;: 21.05, &quot;position&quot;: &quot;3%&quot;, &quot;include_reason&quot;: &quot;形态选股：老鸭头，评分以形态完成度、关键K线和成交量配合为主；主线强度高：半导体；RPS93，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜10天，资金参与结构更分散；投研推荐加分1.3：先进封装/Chiplet，为当前最热细分，环节角色：中游接力，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.2分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;老鸭头形态外部图形候选：优先等站稳关键均线/平台位并放量确认。&quot;, &quot;failure&quot;: &quot;跌破 18.16 或放量跌破20日线/BBI时失效。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破21.05；若回踩18.16附近，重点验证BOLL中轨支撑；优先等量能重新放大后再确认；失效条件看跌破 18.16 或放量跌破20日线/BBI时失效。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002185.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>老鸭头形态外部图形候选：优先等站稳关键均线/平台位并放量确认。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 18.16 或放量跌破20日线/BBI时失效。</p></div>
                 <div class="idea-foot">
@@ -1278,7 +1285,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
                 <p class="pick-risk">形态完成度只到观察级，需等待关键价位确认；离支撑偏远，盈亏比下降；大盘接近压力，最终仓位按全局风险降级</p>
                 
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600584.SH&quot;, &quot;name&quot;: &quot;长电科技&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 83.03, &quot;confidence&quot;: 7.7, &quot;support&quot;: 77.88, &quot;resistance&quot;: 88.32, &quot;position&quot;: &quot;3%&quot;, &quot;include_reason&quot;: &quot;形态选股：老鸭头，评分以形态完成度、关键K线和成交量配合为主；主线强度高：半导体；RPS95，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜10天，资金参与结构更分散；投研推荐加分1.3：先进封装/Chiplet，为当前最热细分，环节角色：中游接力，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合6.7分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;老鸭头形态外部图形候选：优先等站稳关键均线/平台位并放量确认。&quot;, &quot;failure&quot;: &quot;跌破 77.88 或放量跌破20日线/BBI时失效。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破88.32；若回踩77.88附近，重点验证BOLL中轨支撑；失效条件看跌破 77.88 或放量跌破20日线/BBI时失效。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600584.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>老鸭头形态外部图形候选：优先等站稳关键均线/平台位并放量确认。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 77.88 或放量跌破20日线/BBI时失效。</p></div>
                 <div class="idea-foot">
@@ -1327,7 +1334,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000063.SZ&quot;, &quot;name&quot;: &quot;中兴通讯&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 37.89, &quot;confidence&quot;: 7.7, &quot;support&quot;: 37.84, &quot;resistance&quot;: 39.53, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;符合核心低吸结构：趋势内缩量回踩，优先看承接；主线有热度：通信设备；RPS81，相对强度较高；20/60日动量和均线斜率较好；人气热榜9天，资金参与结构更分散；多个买点共振：B1、B3、双线/BBI买点；投研推荐加分0.5：数据中心/AI服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;B1趋势回踩预反弹：趋势、流动性和动量合格，回踩均线/BBI/BOLL不破，缩量或3/4量，J值低位或拐头。&quot;, &quot;failure&quot;: &quot;跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破39.53；若回踩37.84附近，重点验证BOLL中轨支撑；若放量延续，可看突破确认力度；失效条件看跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000063.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B1趋势回踩预反弹：趋势、流动性和动量合格，回踩均线/BBI/BOLL不破，缩量或3/4量，J值低位或拐头。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1371,7 +1378,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260509 国家集成电路产业投资基金股份有限公司DE，变动比例0.71%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002156.SZ&quot;, &quot;name&quot;: &quot;通富微电&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 68.27, &quot;confidence&quot;: 7.5, &quot;support&quot;: 65.71, &quot;resistance&quot;: 74.7, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;符合核心低吸结构：趋势内缩量回踩，优先看承接；主线有热度：半导体；RPS90，相对强度较高；20/60日动量和均线斜率较好；人气热榜10天，资金参与结构更分散；多个买点共振：B1、B2；投研推荐加分0.3：终端/服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;回踩支撑成立且不跌破关键价位，参考价 65.71 附近分批关注；盘中靠近支撑位时分批进场，尾盘确认支撑有效可加仓。&quot;, &quot;failure&quot;: &quot;跌破止损 65.71；收盘跌回参考价下方，冲高接近目标 74.7 后量能衰减。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002156.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>回踩支撑成立且不跌破关键价位，参考价 65.71 附近分批关注；盘中靠近支撑位时分批进场，尾盘确认支撑有效可加仓。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破止损 65.71；收盘跌回参考价下方，冲高接近目标 74.7 后量能衰减。</p></div>
                 <div class="idea-foot">
@@ -1420,7 +1427,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;601869.SH&quot;, &quot;name&quot;: &quot;长飞光纤&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 471.55, &quot;confidence&quot;: 8.1, &quot;support&quot;: 454.44, &quot;resistance&quot;: 495.0, &quot;position&quot;: &quot;3%&quot;, &quot;include_reason&quot;: &quot;右侧确认买点，突破或放量转强后确定性更高；主线强度高：通信设备；RPS96，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜7天，资金参与结构更分散；投研推荐加分0.6：连接器/铜缆，环节角色：中游接力，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.6分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。&quot;, &quot;failure&quot;: &quot;跌破 454.44 或放量跌破BBI/20日线时失效；接近 495.0 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破495.00；若回踩454.44附近不破，可继续保留观察；若放量延续，可看突破确认力度；失效条件看跌破 454.44 或放量跌破BBI/20日线时失效；接近 495.0 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="601869.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 454.44 或放量跌破BBI/20日线时失效；接近 495.0 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1464,7 +1471,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260331 李凌云DE，变动比例0.17%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002407.SZ&quot;, &quot;name&quot;: &quot;多氟多&quot;, &quot;industry&quot;: &quot;化工原料&quot;, &quot;close&quot;: 38.78, &quot;confidence&quot;: 7.6, &quot;support&quot;: 37.01, &quot;resistance&quot;: 42.01, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;右侧确认买点，突破或放量转强后确定性更高；主线强度高：半导体；RPS80，相对强度较高；20/60日动量和均线斜率较好；人气热榜10天，资金参与结构更分散；六维综合6.9分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。&quot;, &quot;failure&quot;: &quot;跌破 37.01 或放量跌破BBI/20日线时失效；接近 42.01 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002407.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 37.01 或放量跌破BBI/20日线时失效；接近 42.01 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1508,7 +1515,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;300476.SZ&quot;, &quot;name&quot;: &quot;胜宏科技&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 369.0, &quot;confidence&quot;: 7.6, &quot;support&quot;: 354.83, &quot;resistance&quot;: 396.85, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;右侧确认买点，突破或放量转强后确定性更高；主线有热度：元器件；RPS87，相对强度较高；20/60日动量和均线斜率较好；人气热榜9天，资金参与结构更分散；投研推荐加分0.6：高多层板，环节角色：中游接力，板块轮动：上游强势，中游开始接力，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.7分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。&quot;, &quot;failure&quot;: &quot;跌破 354.83 或放量跌破BBI/20日线时失效；接近 396.85 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="300476.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 354.83 或放量跌破BBI/20日线时失效；接近 396.85 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1552,7 +1559,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;688256.SH&quot;, &quot;name&quot;: &quot;寒武纪&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 1507.46, &quot;confidence&quot;: 7.6, &quot;support&quot;: 1319.97, &quot;resistance&quot;: 1540.0, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;右侧确认买点，突破或放量转强后确定性更高；主线有热度：半导体；RPS91，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜5天，资金参与结构更分散；六维综合7.4分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。&quot;, &quot;failure&quot;: &quot;跌破 1319.97 或放量跌破BBI/20日线时失效；接近 1540.0 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破1540.00；若回踩1319.97附近，重点验证BOLL中轨支撑；若放量延续，可看突破确认力度；失效条件看跌破 1319.97 或放量跌破BBI/20日线时失效；接近 1540.0 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="688256.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 1319.97 或放量跌破BBI/20日线时失效；接近 1540.0 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1596,7 +1603,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260509 国家集成电路产业投资基金股份有限公司DE，变动比例0.71%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002156.SZ&quot;, &quot;name&quot;: &quot;通富微电&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 68.27, &quot;confidence&quot;: 7.5, &quot;support&quot;: 65.71, &quot;resistance&quot;: 74.7, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;右侧确认买点，突破或放量转强后确定性更高；主线有热度：半导体；RPS90，相对强度较高；20/60日动量和均线斜率较好；人气热榜10天，资金参与结构更分散；多个买点共振：B1、B2；投研推荐加分0.3：终端/服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。&quot;, &quot;failure&quot;: &quot;跌破 65.71 或放量跌破BBI/20日线时失效；接近 74.7 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002156.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B2回踩反弹确认：回踩后重新放量转强，或右侧突破近端压力，DIF/J值开始改善。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 65.71 或放量跌破BBI/20日线时失效；接近 74.7 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1645,7 +1652,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002378.SZ&quot;, &quot;name&quot;: &quot;章源钨业&quot;, &quot;industry&quot;: &quot;小金属&quot;, &quot;close&quot;: 37.11, &quot;confidence&quot;: 7.6, &quot;support&quot;: 35.88, &quot;resistance&quot;: 39.88, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;平台/箱体突破后的回踩确认，支撑位来自突破箱体上沿；主线有热度：小金属概念；RPS85，相对强度较高；20/60日动量和均线斜率较好；人气热榜7天，资金参与结构更分散；投研推荐加分0.8：钨/钼/锑，板块轮动：轮动分化，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.5分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;平台/箱体突破回踩：守住箱体上沿35.88，盘中回踩不破且重新放量转强时分批关注。&quot;, &quot;failure&quot;: &quot;收盘跌回箱体上沿35.88下方，或放量跌破突破K低点34.25，则突破回踩失败。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002378.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>平台/箱体突破回踩：守住箱体上沿35.88，盘中回踩不破且重新放量转强时分批关注。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>收盘跌回箱体上沿35.88下方，或放量跌破突破K低点34.25，则突破回踩失败。</p></div>
                 <div class="idea-foot">
@@ -1694,7 +1701,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000063.SZ&quot;, &quot;name&quot;: &quot;中兴通讯&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 37.89, &quot;confidence&quot;: 7.6, &quot;support&quot;: 37.84, &quot;resistance&quot;: 39.53, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;强趋势延续，适合已有利润垫跟随；主线有热度：通信设备；RPS81，相对强度较高；20/60日动量和均线斜率较好；人气热榜9天，资金参与结构更分散；多个买点共振：B1、B3、双线/BBI买点；投研推荐加分0.5：数据中心/AI服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;B3强趋势延续：强趋势延续中的缩量回踩，适合已有利润垫时跟踪。&quot;, &quot;failure&quot;: &quot;跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破39.53；若回踩37.84附近，重点验证BOLL中轨支撑；若放量延续，可看突破确认力度；失效条件看跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000063.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>B3强趋势延续：强趋势延续中的缩量回踩，适合已有利润垫时跟踪。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1743,7 +1750,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;601138.SH&quot;, &quot;name&quot;: &quot;工业富联&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 78.08, &quot;confidence&quot;: 8.2, &quot;support&quot;: 73.32, &quot;resistance&quot;: 80.62, &quot;position&quot;: &quot;3%&quot;, &quot;include_reason&quot;: &quot;关键位置放量中大阳，后续看关键K低点是否守住；主线强度高：通信设备；RPS92，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜10天，资金参与结构更分散；投研推荐加分0.5：数据中心/AI服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合8.0分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;关键K：关键位置出现放量中大阳，后续更适合等缩量回踩不破关键K低点。&quot;, &quot;failure&quot;: &quot;跌破 73.32 或放量跌破BBI/20日线时失效；接近 80.62 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破80.62；若回踩73.32附近，重点验证BOLL中轨支撑；若放量延续，可看突破确认力度；失效条件看跌破 73.32 或放量跌破BBI/20日线时失效；接近 80.62 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="601138.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>关键K：关键位置出现放量中大阳，后续更适合等缩量回踩不破关键K低点。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 73.32 或放量跌破BBI/20日线时失效；接近 80.62 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1806,7 +1813,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;000063.SZ&quot;, &quot;name&quot;: &quot;中兴通讯&quot;, &quot;industry&quot;: &quot;通信设备&quot;, &quot;close&quot;: 37.89, &quot;confidence&quot;: 7.6, &quot;support&quot;: 37.84, &quot;resistance&quot;: 39.53, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;线上体系或3/4量确认，偏向洗盘后的承接验证；主线有热度：通信设备；RPS81，相对强度较高；20/60日动量和均线斜率较好；人气热榜9天，资金参与结构更分散；多个买点共振：B1、B3、双线/BBI买点；投研推荐加分0.5：数据中心/AI服务器，环节角色：下游验证，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;双线/BBI买点：股价在线上体系内回踩BBI不破，符合右侧安全带逻辑。&quot;, &quot;failure&quot;: &quot;跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破39.53；若回踩37.84附近，重点验证BOLL中轨支撑；若放量延续，可看突破确认力度；失效条件看跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="000063.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>双线/BBI买点：股价在线上体系内回踩BBI不破，符合右侧安全带逻辑。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 37.84 或放量跌破BBI/20日线时失效；接近 39.53 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1855,7 +1862,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;002579.SZ&quot;, &quot;name&quot;: &quot;中京电子&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 20.32, &quot;confidence&quot;: 7.9, &quot;support&quot;: 17.21, &quot;resistance&quot;: 21.44, &quot;position&quot;: &quot;3%&quot;, &quot;include_reason&quot;: &quot;线上体系或3/4量确认，偏向洗盘后的承接验证；主线强度高：元器件；RPS96，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜10天，资金参与结构更分散；多个买点共振：集合竞价、3/4量确认；投研推荐加分0.9：HDI，为当前最热细分，环节角色：中游接力，板块轮动：上游强势，中游开始接力，细分状态：资金集中度较高，前排有继续扩散基础&quot;, &quot;trigger&quot;: &quot;3/4量确认：成交量约为前日0.73倍，接近3/4量洗盘确认区。&quot;, &quot;failure&quot;: &quot;跌破 17.21 或放量跌破BBI/20日线时失效；接近 21.44 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;继续看是否放量突破21.44；若回踩17.21附近，重点验证BOLL中轨支撑；优先等量能重新放大后再确认；失效条件看跌破 17.21 或放量跌破BBI/20日线时失效；接近 21.44 且量能衰减则分批处理。&quot;, &quot;abnormal_risk&quot;: &quot;次日深证A股涨0.0%时，个股涨1.2%将进入3日涨幅偏离值达20%异动；大盘每多涨1%，个股触发涨幅同步提高1%。&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="002579.SZ">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>3/4量确认：成交量约为前日0.73倍，接近3/4量洗盘确认区。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 17.21 或放量跌破BBI/20日线时失效；接近 21.44 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1899,7 +1906,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>近120日未识别到股东增减持；当日热闻/热榜未识别到立案调查或重大监管风险</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600206.SH&quot;, &quot;name&quot;: &quot;有研新材&quot;, &quot;industry&quot;: &quot;半导体&quot;, &quot;close&quot;: 42.51, &quot;confidence&quot;: 7.6, &quot;support&quot;: 34.27, &quot;resistance&quot;: 43.51, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;线上体系或3/4量确认，偏向洗盘后的承接验证；主线强度高：半导体；RPS97，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜9天，资金参与结构更分散；投研推荐加分0.6：晶圆代工，环节角色：中游制造，板块轮动：中游接力确认，细分状态：资金集中度较高，前排有继续扩散基础；六维综合6.2分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;3/4量确认：成交量约为前日0.80倍，接近3/4量洗盘确认区。&quot;, &quot;failure&quot;: &quot;跌破 34.27 或放量跌破BBI/20日线时失效；接近 43.51 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600206.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>3/4量确认：成交量约为前日0.80倍，接近3/4量洗盘确认区。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 34.27 或放量跌破BBI/20日线时失效；接近 43.51 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -1943,7 +1950,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
           <p>20260227 陈仁喜DE，变动比例0.01%；需核对公告执行进度</p>
         </div></div>
                 
-                
+                <div class="local-control"><button type="button" data-watch-add="{&quot;code&quot;: &quot;600183.SH&quot;, &quot;name&quot;: &quot;生益科技&quot;, &quot;industry&quot;: &quot;元器件&quot;, &quot;close&quot;: 183.87, &quot;confidence&quot;: 7.5, &quot;support&quot;: 157.66, &quot;resistance&quot;: 183.69, &quot;position&quot;: &quot;观察&quot;, &quot;include_reason&quot;: &quot;线上体系或3/4量确认，偏向洗盘后的承接验证；主线有热度：元器件；RPS99，属于全市场前10%强势股；20/60日动量和均线斜率较好；人气热榜10天，资金参与结构更分散；投研推荐加分0.3：覆铜板，环节角色：上游材料，板块轮动：上游强势，中游开始接力，细分状态：资金集中度较高，前排有继续扩散基础；六维综合7.1分，纳入趋势/资金/估值/基本面/周期/事件后重算100分总分&quot;, &quot;trigger&quot;: &quot;3/4量确认：成交量约为前日0.69倍，接近3/4量洗盘确认区。&quot;, &quot;failure&quot;: &quot;跌破 157.66 或放量跌破BBI/20日线时失效；接近 183.69 且量能衰减则分批处理。&quot;, &quot;tracking_next&quot;: &quot;&quot;, &quot;abnormal_risk&quot;: &quot;无异动风险&quot;, &quot;added_from_trade_date&quot;: &quot;2026-06-18&quot;}" data-watch-code="600183.SH">加入自选</button><small>写入同步文件</small></div>
                 <div class="idea-row"><b>触发</b><p>3/4量确认：成交量约为前日0.69倍，接近3/4量洗盘确认区。</p></div>
                 <div class="idea-row fail"><b>失效</b><p>跌破 157.66 或放量跌破BBI/20日线时失效；接近 183.69 且量能衰减则分批处理。</p></div>
                 <div class="idea-foot">
@@ -2494,7 +2501,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
       <section class="dashboard-page" data-page="watch">
         <section class="panel">
           <div class="section-head"><h2>自选股</h2><span data-watch-count>0只</span></div>
-          <div class="watch-mode-panel"><div class="watch-mode-head"><b>盯盘模式</b><span data-watch-mode-time>同步快照</span></div><div class="watch-mode-list" data-watch-mode-list></div></div>
+          <div class="watch-mode-panel"><div class="watch-mode-head"><b>盯盘模式</b><span data-watch-mode-time>本地问财实时</span></div><div class="watch-mode-list" data-watch-mode-list></div></div>
           <div class="watch-list" data-watch-list></div>
         </section>
       </section>
@@ -2502,7 +2509,7 @@ td .abnormal-risk { display: inline-flex; margin: 0; max-width: 260px; }
       <section class="dashboard-page" data-page="portfolio">
         <section class="panel">
           <div class="section-head"><h2>模拟舱</h2><span>日线基准 2026-06-18 ｜ 100万模拟舱 / 自动择强 / 买卖与做T记录</span></div>
-          <div class="watch-mode-panel"><div class="watch-mode-head"><b>盯盘模式</b><span data-watch-mode-time>同步快照</span></div><div class="watch-mode-list" data-sim-watch-mode-list></div></div>
+          <div class="watch-mode-panel"><div class="watch-mode-head"><b>盯盘模式</b><span data-watch-mode-time>本地问财实时</span></div><div class="watch-mode-list" data-sim-watch-mode-list></div></div>
           
       <p class="analysis-summary">100万模拟舱按80分以上买点择强择位运行；短线情绪9.2分，短线进攻；连板25只，高位连板13只，最高4板，强竞价10只，主线强度10.0；本次为午间更新，重点执行模拟舱调仓、做T和持仓确认；本阶段已执行过模拟舱操作，本次只刷新持仓估值和分析；当前持有6只，仓位35.8%（目标上限45.0%）；本次记录买入1笔、卖出0笔、做T0笔；并未把所有候选都买入，只优先主线内高分、位置不追高且止损线清晰的股票。</p>
       <div class="band metrics sim-metrics">
